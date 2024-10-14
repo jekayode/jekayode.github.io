@@ -1,0 +1,3151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="https://dhmmnd775wlnp.cloudfront.net/f2fbd46a5b/css/default/popup.css">
+  </head>
+ 
+
+<body id="docsRevision">
+<p>
+	When using the 
+	<strong><a href="https://docs.wp-rocket.me/article/1349-delay-javascript-execution">Delay JavaScript Execution</a></strong> feature you may notice that it takes some time, or user's interaction for some elements, e.g. a menu, or a form that is located in the viewport, to appear.</p><p>
+	You can prevent that, by clicking on the plugin/theme/service-specific boxes in the 
+	<strong>One-click exclusions </strong>section under the Delay JavaScript execution feature, available from WP Rocket 3.13:</p><p>
+	<img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5415e7bfe4b01e2a68fe8243/images/64233e4ce11bbe23cb6ac8d8/file-DtE7kSrtGZ.gif" alt="one click exclusions section" /></p><p>
+	If you're using an older WP Rocket version, you can add the plugin/theme/service-specific exclusions in the
+	<b> Excluded JavaScript files</b> text area.<br />
+	<br />
+	<strong></strong><strong>Note:</strong>  you don't need to specify entries to the Excluded JavaScript files box if you've already selected the checkbox for the theme/plugin/service in the One-click exclusions section.</p><p>
+	<img src="https://s3.amazonaws.com/helpscout.net/docs/assets/5415e7bfe4b01e2a68fe8243/images/64233f1369becd1202b9f330/file-WmNIHRiuhh.png" alt="excluded JavaScript files box" /></p><p>
+	<strong>Please note</strong> that for compatibility reasons, some scripts are automatically excluded in WP Rocket’s core. You can check the current exclusions <a href="https://github.com/wp-media/wp-rocket/blob/trunk/dynamic-lists.json">here</a>, by searching for the array <code>delay_js_exclusions</code>.</p><p>
+	<strong>Tip:</strong> if you can't find a specific dependencie, plugin, theme or service in the below list, you can find any exclusion using the <a href="https://docs.wp-rocket.me/article/1655-troubleshoot-delay-javascript-execution-issues#techniques">techniques described in this article</a>.</p><h2>List of compatibility exclusions</h2><p class="callout-blue">
+	<strong>Note:</strong> You only need to manually use the following exclusions in WP Rocket versions older than 3.13 when the <strong>One-click exclusions</strong> boxes are not available.</p><h2> General dependencies </h2><ul>
+	
+<li><a href="#jquery">jQuery is not defined</a></li>	
+<li><a href="#hoverintent">f.hoverIntent is not a function</a></li>	
+<li><a href="#imageloaded">imagesLoaded is not defined</a></li>	
+<li><a href="#wptemplate">wp.template is not a function</a></li>	
+<li><a href="#underscore">_ is not defined</a></li>	
+<li><a href="#mediaelementplayer">mediaelementplayer is not a function</a></li>	
+<li><a href="#moment">moment is not defined</a></li>	
+<li><a href="#wpnot">wp is not defined</a></li></ul><h2>Plugins</h2><ul>
+	
+<li><a href="#Additional-Variation-Images-Gallery-for-WooCommerce">Additional Variation Images Gallery for WooCommerce</a></li>	
+<li><a href="#advanced-ads">Advanced Ads</a></li>	
+<li><a href="#amelia">Amelia</a></li>	
+<li><a href="#amo-team-showcase">AMO Team Showcase</a></li>	
+<li><a href="#antispambycleantalk">Anti-Spam by CleanTalk</a></li>	
+<li><a href="#anwpfootballleagues">AnWP Football Leagues</a></li>	
+<li><a href="#anywhereelementorpro">Anywhere Elementor Pro</a></li>	
+<li><a href="#beaver-builder">Beaver Builder</a></li>	
+<li><a href="#element-pack-lite">BDThemes Element Pack Lite</a></li>	
+<li><a href="#booked">Booked</a></li>	
+<li><a href="#bookly">Bookly</a></li>	
+<li><a href="#borlabs-cookie">Borlabs Cookie</a></li>	
+<li><a href="#brizy">Brizy</a></li>	
+<li><a href="#campaign-monitor-for-wordpress">Campaign Monitor for WordPress</a></li>	
+<li><a href="#carousel-upsells-for-woo">Carousel Upsells and Related Product for Woocommerce</a></li>	
+<li><a href="#chaty">Chaty (Floating Chat Widget)</a></li>	
+<li><a href="#clickskeks">clickskeks.at Cookiebanner</a></li>	
+<li><a href="#consentmagic">ConsentMagic Pro</a></li>	
+<li><a href="#iubenda">Cookie and Consent Solution for the GDPR &amp; ePrivacy</a></li>	
+<li><a href="#cookie-notice">Cookie Notice &amp; Compliance for GDPR / CCPA</a></li>	
+<li><a href="#cookiebot">Cookiebot | GDPR/CCPA Compliant Cookie Consent and Control</a></li>	
+<li><a href="#complianz-gdpr">Complianz – GDPR/CCPA Cookie Consent</a></li>	
+<li><a href="#contentegg">Content Egg</a></li>	
+<li><a href="#cornerstone">Cornerstone plugin</a></li>	
+<li><a href="#coupon-referral-program">Coupon Referral Program</a></li>	
+<li><a href="#cozystay-core">CozyStay Core</a></li>	
+<li><a href="#crisp-live-chat-and-chatbot">Crisp – Live Chat and Chatbot</a></li>	
+<li><a href="#custom-twitter-feeds-pro">Custom Twitter feeds pro</a></li>	
+<li><a href="#customer-reviews-for-woocommerce">Customer Reviews for WooCommerce Plugin</a></li>	
+<li><a href="#divi">Divi</a> </li>	
+<li><a href="#divi-den-pro">Divi Den Pro</a></li>	
+<li><a href="#divi-overlays">Divi Overlays</a> </li>	
+<li><a href="#divi-toolbox">Divitool Box - Page Preloader</a></li>	
+<li><a href="#divi-mobile">Divi Mobile</a></li>	
+<li><a href="#divi-pixel">Divi Pixel - Page Preloader</a></li>	
+<li><a href="#divi-supreme">Divi Supreme</a></li>	
+<li><a href="#dp-preloader">DP Preloader</a></li>	
+<li><a href="#dracula-dark-mode">Dracula Dark Mode</a></li>	
+<li><a href="#dynamic-product-gallery-woo">Dynamic Product Gallery for WooCommerce</a></li>	
+<li><a href="#dynamic-product-gallery-premium-woo">Dynamic Product Gallery Premium for WooCommerce</a></li>	
+<li><a href="#dynamic-content-for-elementor">Dynamic.ooo - Dynamic Content for Elementor</a></li>	
+<li><a href="#easy-table-of-contents">Easy Table of Contents</a></li>	
+<li><a href="#ecwid_ecommerce_shopimishopping">Ecwid Ecommerce Shopping Cart</a></li>	
+<li><a href="#element-pack-pro">Element Pack Pro</a></li>	
+<li><a href="#elementor-custom-skin">Elementor Custom Skin</a></li>	
+<li><a href="#header-footer-elementor">Elementor Header &amp; Footer Builder</a></li>	
+<li><a href="#elementor-pro">Elementor Pro</a></li>	
+<li><a href="#elementor-pro-smartmenus">Elementor: SmartMenus</a></li>	
+<li><a href="#essential-addons-for-elementor">Essential Addons for Elementor</a></li>	
+<li><a href="#elementor-lazyload-background-images">Elementor - Lazy Load Background Images</a></li>	
+<li><a href="#eventon-lite">EventON Lite</a></li>	
+<li><a href="#happy-addons-elementor-pro">Happy Elementor Addons Pro</a></li>	
+<li><a href="#essential-grid">Essential Grid</a></li>	
+<li><a href="#facetwp">FacetWP</a></li>	
+<li><a href="#facetwp-flyout">FacetWP - Flyout menu</a></li>	
+<li><a href="#foogallery">Foogallery</a></li>	
+<li><a href="#formidableforms">Formidable Forms</a></li>	
+<li><a href="#fibofilter-premium">FiboFilter Premium</a></li>	
+<li><a href="#fibosearch-ajax-search-for-woocommerce">FiboSearch – Ajax Search for WooCommerce</a></li>	
+<li><a href="#flexblock">Flexblock (Flothemes)</a></li>	
+<li><a href="#fluentforms">Fluent Forms</a></li>	
+<li><a href="#flying-images">Flying Images by WP Speed Matters</a></li>	
+<li><a href="#forminator">Forminator</a></li>	
+<li><a href="#gdpr-cookie-consent">GDPR Cookie Consent</a></li>	
+<li><a href="#gdpr-cookie-compliance-ccpa-ready">GDPR Cookie Compliance (CCPA ready)</a></li>	
+<li><a href="#getwid">Getwid – Gutenberg Blocks</a></li>	
+<li><a href="#givewp">GiveWP</a></li>	
+<li><a href="#google-tag-manager-for-woocommerce-pro">Google Tag Manager for WooCommerce PRO</a></li>	
+<li><a href="#google-tag-manager-for-wordpress">Google Tag Manager for WordPress</a></li>	
+<li><a href="#gravityforms">Gravity Forms</a></li>	
+<li><a href="#gf-page-transitions">Gravity Forms - Page Transitons</a></li>		</ul><a href="#gf-page-transitions">
+	</a>
+	
+<a href="#gf-page-transitions"></a><a href="#greenforms">Green Forms</a>	
+<a href="#gtranslate">GTranslate (Free plan - Language selector widget)</a>	
+<a href="#hbook">HBook</a>	
+<a href="#instagram-feed-pro">Instagram Feed pro</a>	
+<a href="#interactive-geo-maps">Interactive Geo Maps</a>	
+<a href="#jetblog">JetBlog</a>	
+<a href="#jetblocks">JetBlocks</a>		<a href="#jetblocks"> </a>
+	
+<a href="#jetblocks"></a><a href="#jet-elements">JetElements</a>	
+<a href="#jet-menu">JetMenu</a>	
+<a href="#jetpopup">JetPopup</a>	
+<a href="#JetProductGallery">JetProductGallery</a>	
+<a href="#JetReviews-For-Elementor">JetReviews For Elementor</a>	
+<a href="#jetsearch">JetSearch</a>	
+<a href="#jetsticky">JetSticky</a>	
+<a href="#jettabs">JetTabs for Elementor</a>	
+<a href="#jettricks">JetTricks - Visual effects for Elementor</a>	
+<a href="#jetwoo-widgets">JetWoo Widgets For Elementor</a>	
+<a href="#jetwoo-builder-custom-quantity">JetWooBuilder - Custom Quantity Selector</a>	
+<a href="#layerslider">LayerSlider</a>	
+<a href="#loftloader">LoftLoader Pro</a>	
+<a href="#mailup">MailUp for WordPress – Email and Newsletter Subscription Form</a>	
+<a href="#maintenance">Maintenance</a>	
+<a href="#mapsmarkerpro">Maps Marker Pro</a>	
+<a href="#masterslider">Master Slider – Responsive Touch Slider</a>	
+<a href="#max-mega-menu">Max Mega Menu</a>	
+<a href="#meta-slider">Meta Slider</a>	
+<a href="#monster-insights">Monster Insights</a>	
+<a href="#motion-page">Motion.page</a>	
+<a href="#night-eye-pro">Night Eye Pro</a>	
+<a href="#ninjaforms">Ninja Forms</a>	
+<a href="#ninjatables">Ninja Tables</a>	
+<a href="#notificationx">NotificationX</a>	
+<a href="#ooohboi-steroids-for-elementor">OoohBoi Steroids for Elementor</a>	
+<a href="#ocean-elementor-widgets">Ocean Elementor Widgets</a>	
+<a href="#one-click-accessibility">One Click Accessibility </a>	
+<a href="#openai-helper">OpenAI Chatbot for WordPress – Helper</a>	
+<a href="#optimole">Optimole</a>	
+<a href="#osm-openstreetmap">OSM – OpenStreetMap</a>	
+<a href="#oxygen">Oxygen</a>	
+<a href="#oxyextras">OxyExtras</a>	
+<a href="#pdf-embedder">PDF Embedder</a>	
+<a href="#pageloader-by-bonfire">PageLoader by Bonfire</a>	
+<a href="#perfect-woocommerce-brands">Perfect WooCommerce Brands</a>	
+<a href="#photonic">Photonic</a>	
+<a href="#pixelcaffein">Pixel Caffein</a>	
+<a href="#pixel-manager-woocommerce">Pixel Manager for WooCommerce (Premium)</a>	
+<a href="#product-filter-wbw">Product Filter by WBW</a>	
+<a href="#pub">Popup Builder</a>	
+<a href="#pum">Popup Maker</a>	
+<a href="#powerpack-addons">PowerPack Addons for Elementor</a>	
+<a href="#preloader-for-divi">Preloader for Divi</a>	
+<a href="#preloader-plus">Preloader Plus – WordPress Loading Screen Plugin</a>	
+<a href="#premium-addons-for-elementor">Premium Addons for Elementor</a>	
+<a href="#presto-player">Presto Player</a>	
+<a href="#price-based-country">Price Based on Country for WooCommerce (Pro)</a>	
+<a href="#prime-slider">Prime Slider by BDThemes</a>	
+<a href="#pro-elements">PRO Elements</a>	
+<a href="#product-filter-for-woocommerce">Product Filter for WooCommerce</a>	
+<a href="#product-filters-for-woocommerce">Product Filters for WooCommerce</a>	
+<a href="#twist">Product Gallery Slider for WooCommerce (Formerly Twist)</a>	
+<a href="#rankmath">RankMath</a>	
+<a href="#retainful-next-order-coupon-for-woocommerce">Retainful – WooCommerce Abandoned Cart Recovery</a>	
+<a href="#revolution-slider">Revolution Slider</a>	
+<a href="#royal-elementor-addons">Royal Elementor Addons</a>	
+<a href="#sassy-social-share">Sassy Social Share</a>	
+<a href="#scrollsequence">Scrollsequence</a>	
+<a href="#seolounge">SEO Lounge - Digital Marketing Theme</a>	
+<a href="#shiftnav">ShiftNav Pro - Responsive Mobile Menu</a>	
+<a href="#shiftnav-free">ShiftNav – Responsive Mobile Menu</a>	
+<a href="#side-cart-woocommerce-ajax">Side Cart Woocommerce (Ajax)</a>	
+<a href="#simple-banner">Simple Banner</a>	
+<a href="#google-site-kit">Site Kit by Google</a>	
+<a href="#so-widgets-bundle">SiteOrigin Widgets Bundle</a>	
+<a href="#short-pixel-adaptive-image">Short Pixel Adaptive Image</a>	
+<a href="#showcase-idx">Showcase IDX</a>	
+<a href="#slide-anything">Slide Anything Plugin</a>	
+<a href="#slick-menu">Slick Menu</a>	
+<a href="#smart-slider">Smart Slider 3</a>	
+<a href="#smart-slider-pro">Smart Slider 3 Pro</a>	
+<a href="#smart-variations-images">Smart Variations Images &amp; Swatches for WooCommerce (Premium)</a>	
+<a href="#soliloquy">Soliloquy</a>	
+<a href="#spectra">Spectra (formerly Ultimate Addons for Gutenberg)</a>	
+<a href="#superfly-menu">SuperFly Menu</a>	
+<a href="#svg-support">SVG Support</a>	
+<a href="#symplr-ads">Symplr Ads</a>	
+<a href="#tabby">Tabby Responsive Tabs</a>	
+<a href="#tidio-chat">Tidio Chat</a>	
+<a href="#the-plus-addons">The Plus Addons for Elementor</a>	
+<a href="#the-plus-addons-pro">The Plus Addons for Elementor Pro</a>	
+<a href="#themerex-addons">ThemeREX Addons </a>	
+<a href="#thrive-architect">Thrive Architect</a>	
+<a href="#thrive-leads">Thrive Leads - Inline Form</a>	
+<a href="#thrive-quiz">Thrive Quiz Builder</a>	
+<a href="#thrive-tb">Thrive Theme Builder</a>	
+<a href="#thrive-ult">Thrive Ultimatum</a>	
+<a href="#topbar-pro">Top Bar Pro</a>	
+<a href="#toolset-blocks">Toolset Blocks</a>	
+<a href="#tp-woocommerce-product-gallery-pro">TP WooCommerce Product Gallery PRO</a>	
+<a href="#typing-effect">Typing Effect</a>	
+<a href="#ubermenu">UberMenu</a>	
+<a href="#ultimateelementor">Ultimate Addons for Elementor</a>	
+<a href="#ultimate-addons-wpbakery">Ultimate Addons for WPBakery Page Builder</a>	
+<a href="#ultimate-responsive-image-slider">Ultimate Responsive Image Slider</a>	
+<a href="#variation-swatches-for-woocommerce">Variation Swatches for WooCommerce</a>	
+<a href="#woocommerce-attribute-swatches">WooCommerce Attribute Swatches</a>	
+<a href="#woocommerce-bookings">WooCommerce bookings</a>	
+<a href="#woocommerce-extra-product-options">WooCommerce TM Extra Product Options</a>	
+<a href="#woocommerce-product-gallery">WooCommerce Product Gallery</a>	
+<a href="#woocommerce-product-reviews-pro">WooCommerce Product Reviews Pro</a>	
+<a href="#woocommerce-stripe-gateway">WooCommerce Stripe Gateway</a>	
+<a href="#woof">WOOF - Products Filter for WooCommerce</a>	
+<a href="#woolentor">WooLentor - WooCommerce Elementor Addons + Builder</a>	
+<a href="#woothumbs-for-woocommerce">WooThumbs for WooCommerce</a>	
+<a href="#accessibe">Web Accessibility By accessiBe</a>	
+<a href="#wp-armour">WP Armour</a>	
+<a href="#wp-mapit">WP MapIt</a>	
+<a href="#wp-responsive-menu">WP Responsive Menu</a>	
+<a href="#wp-search-with-algolia">WP Search with Algolia</a>	
+<a href="#wp-smart-preloader">WP Smart Preloader</a>	
+<a href="#wp-store-locator">WP Store Locator</a>	
+<a href="#wp-ultimate-post-grid">WP Ultimate Post Grid</a>	
+<a href="#quadmenu">WordPress Mega Menu – QuadMenu</a>	
+<a href="#wpbakery">WPBakery Page Builder</a>	
+<a href="#wpforms">WP Forms</a>	
+<a href="#wpforms-loader-gif">WPForms - Loader GIF</a>	
+<a href="#wpforms-offline-forms">WPForms - Offline Forms Addon</a>	
+<a href="#wpdatatables">wpDataTables – Tables &amp; Table Charts</a>	
+<a href="#wp-google-maps">WP Google Maps</a>	
+<a href="#wp-google-maps-pro">WP Google Maps Pro</a>	
+<a href="#wp-ical-availability">WP iCal Availability</a>	
+<a href="#yandex-ads">Yandex Ads</a>	
+<a href="#yith-ajax-product-filter">YITH WooCommerce AJAX Product Filter</a>	
+<a href="#yith-ajax-product-filter-premium">YITH WooCommerce Ajax Product Filter Premium</a>	
+<a href="#yith-woocommerce-points-rewards">YITH WooCommerce Points and Rewards</a>	
+<a href="#zoho-salesiq">Zoho SalesIQ</a><hr /><h2>Themes</h2><ul>
+	
+<li><a href="#agensy">Agensy</a></li>	
+<li><a href="#andaman">Andaman</a></li>	
+<li><a href="#artale">Artale Theme</a></li>	
+<li><a href="#ashe-pro-child">Ashe Pro Child Theme</a></li>	
+<li><a href="#astra-theme">Astra Theme</a></li>	
+<li><a href="#avada">Avada Theme</a></li>	
+<li><a href="#avada-faq">Avada Theme - FAQ Shortcode</a></li>	
+<li><a href="#avada-fusion-builder">Avada Theme - Fusion Builder</a></li>	
+<li><a href="#avada-fusion-carousel">Avada Theme - Fusion Carousel</a></li>	
+<li><a href="#fusion-grid-gallery">Avada Theme - Fusion Grid Gallery</a></li>	
+<li><a href="#fusion-slider">Avada Theme - Fusion Slider</a></li>	
+<li><a href="#avada-portfolio">Avada Theme - Portfolio</a></li>	
+<li><a href="#avada-product-gallery">Avada Theme - WooCommerce Product Gallery</a></li>	
+<li><a href="#avesa-theme">Avesa Theme</a></li>	
+<li><a href="#auteur-slider">Auteur Theme - Slider</a></li>	
+<li><a href="#autotrader">Autotrader</a></li>	
+<li><a href="#blossom-recipe-pro">Blossom Recipe Pro</a></li>	
+<li><a href="#betheme">BeTheme</a></li>	
+<li><a href="#besa">Besa Theme</a></li>	
+<li><a href="#birth">Birth</a></li>	
+<li><a href="#bosa-online-education">Bosa Online Education</a></li>	
+<li><a href="#cardea-theme">Cardea Theme</a></li>	
+<li><a href="#cardealer">Cardealer</a></li>	
+<li><a href="#cheerup">CheerUp</a></li>	
+<li><a href="#clover-theme">Clover Theme</a></li>	
+<li><a href="#divi">Divi Theme</a></li>	
+<li><a href="#eikra">Eikra Theme</a></li>	
+<li><a href="#ekko">Ekko Theme</a></li>	
+<li><a href="#elessi">Elessi Theme</a></li>	
+<li><a href="#enfold">Enfold Theme</a></li>	
+<li><a href="#envision">Envision Theme</a></li>	
+<li><a href="#essentials">Essentials | Multipurpose WordPress Theme</a></li>	
+<li><a href="#ewebot">Ewebot Theme (GT3 Themes)</a></li>	
+<li><a href="#farvis-theme">Farvis Theme</a></li>	
+<li><a href="#flatsome-theme">Flatsome Theme</a></li>	
+<li><a href="#frida-theme">Frida Theme</a></li>	
+<li><a href="#gardena-theme">Gardena Theme</a></li>	
+<li><a href="#generatepress">GeneratePress</a></li>	
+<li><a href="#bridge">Bridge Theme</a></li>	
+<li><a href="#harmuny">Harmuny</a></li>	
+<li><a href="#healthfirst">HealthFirst</a></li>	
+<li><a href="#honor">Honor</a></li>	
+<li><a href="#hotelmaster">HotelMaster</a></li>	
+<li><a href="#jannah">Jannah</a></li>	
+<li><a href="#jnews">JNews</a></li>	
+<li><a href="#jobify">Jobify</a></li>	
+<li><a href="#joyn">JOYN Theme</a></li>	
+<li><a href="#junotoys">JunoToys</a></li>	
+<li><a href="#jupiter">Jupiter</a></li>	
+<li><a href="#jupiter-x">Jupiter X</a></li>	
+<li><a href="#kadence">Kadence Theme</a></li>	
+<li><a href="#kalium">Kalium Theme</a></li>	
+<li><a href="#kava">Kava Theme</a></li>	
+<li><a href="#lazanews">LazaNews Theme</a></li>	
+<li><a href="#lay">Lay Theme</a></li>	
+<li><a href="#listeo">ListeoTheme</a></li>	
+<li><a href="#listingpro">Listingpro</a></li>	
+<li><a href="#masterstudy">Master Study</a></li>	
+<li><a href="#mai-delight">Mai Delight Theme</a></li>	
+<li><a href="#maya">Maya Theme</a></li>	
+<li><a href="#mh-magazine">MH Magazine Theme</a></li>	
+<li><a href="#minimog">Minimog Theme</a></li>	
+<li><a href="#molla-product-gallery">Molla Theme - WooCommerce Product Gallery</a></li>	
+<li><a href="#moozo-elementor">Moozo Elementor</a></li>	
+<li><a href="#mylisting">My Listing Theme</a></li>	
+<li><a href="#neve-theme">Neve Theme</a></li>	
+<li><a href="#newspaper-theme">Newspaper Theme</a></li>	
+<li><a href="#niva">Niva Theme</a></li>	
+<li><a href="#oceanwp-theme">OceanWP Theme</a></li>	
+<li><a href="#pennews">PenNews</a></li>	
+<li><a href="#pharmacymentor">Pharmacy Mentor Theme</a></li>	
+<li><a href="#porto">Porto Theme</a></li>	
+<li><a href="#premiumpress">PremiumPress Themes</a></li>	
+<li><a href="#pro-theme">Pro Theme</a></li>	
+<li><a href="#prophoto">ProPhoto Theme</a></li>	
+<li><a href="#publisher">Publisher Theme</a></li>	
+<li><a href="#the7">The7 Theme</a></li>	
+<li><a href="#rehub">REHub</a></li>	
+<li><a href="#rey-theme">Rey theme</a></li>	
+<li><a href="#sahifa-theme">Sahifa Theme</a></li>	
+<li><a href="#salient-theme">Salient Theme</a></li>	
+<li><a href="#simplemag">SimpleMag Theme</a></li>	
+<li><a href="#shoptimizer">Shoptimizer theme</a></li>	
+<li><a href="#smart-mag">SmartMag</a></li>	
+<li><a href="#soledad">Soledad Theme</a></li>	
+<li><a href="#spacious">Spacious Theme</a></li>	
+<li><a href="#stockholm">Stockholm Theme</a></li>	
+<li><a href="#storefront">Storefront Theme</a></li>	
+<li><a href="#streamtube">StreamTube - Theme</a></li>	
+<li><a href="#sydney">Sydney</a></li>	
+<li><a href="#gem">TheGem Theme</a></li>	
+<li><a href="#total">Total Theme</a></li>	
+<li><a href="#townhub">TownHub Theme</a></li>	
+<li><a href="#travelmonster">Travel Monster Theme</a></li>	
+<li><a href="#traveltour">TravelTour Theme (GoodLayers)</a></li>	
+<li><a href="#udesign">uDesign</a></li>	
+<li><a href="#uncode">Uncode</a></li>	
+<li><a href="#utouch">Utouch</a></li>	
+<li><a href="#vivo">Vivo Theme</a></li>	
+<li><a href="#xstore">XStore Theme</a></li>	
+<li><a href="#yootheme">YOOtheme</a></li>	
+<li><a href="#werkstatt">Werkstatt Theme</a></li>	
+<li><a href="#woodmart">WoodMart</a></li>	
+<li><a href="#zeen">Zeen Theme</a></li></ul><hr /><h2> Services </h2><ul>
+	
+<li><a href="#amazonads">Amazon Ads</a></li>	
+<li><a href="#cookieyes">CookieYes</a></li>	
+<li><a href="#g-adsense">Google AdSense</a></li>	
+<li><a href="#google-analytics">Google Analytics</a></li>	
+<li><a href="#google-maps">Google Maps</a></li>	
+<li><a href="#google-optimize">Google Optimize</a></li>	
+<li><a href="#google-anti-flicker">Google Optimize - Anti-flicker snippet</a></li>	
+<li><a href="#google-recaptcha">Google Recaptcha</a></li>	
+<li><a href="#google-tag-manager">Google Tag Manager</a></li>	
+<li><a href="#gravitec">Gravitec.net Push</a></li>	
+<li><a href="#hubspot">HubSpot</a></li>	
+<li><a href="#judge-me">judge.me</a></li>	
+<li><a href="#mediavine">Mediavine</a></li>	
+<li><a href="#nicejob">NiceJob Reviews</a></li>	
+<li><a href="#onesignal">OneSignal</a></li>	
+<li><a href="#poptin">poptin.com</a></li>	
+<li><a href="#stripe">Stripe</a></li>	
+<li><a href="#reviewsio">Reviews.io</a></li>	
+<li><a href="#trustindexio">Trustindex.io</a></li>	
+<li><a href="#typeform">Typeform</a></li>	
+<li><a href="#typekit">Typekit</a></li>	
+<li><a href="#venatus">Venatus Media</a></li>	
+<li><a href="#wistia">Wistia</a></li></ul><hr /><h2>General dependencies exclusions</h2><p>
+	<strong>jQuery is not defined</strong></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+</pre><p>
+	<strong>f.hoverIntent is not a function</strong></p>
+<pre>/wp-includes/js/hoverIntent.min.js
+</pre><p>
+	<strong>imagesLoaded is not defined</strong></p>
+<pre>/wp-includes/js/imagesloaded.min.js
+</pre><p>
+	<strong>_ is not defined</strong></p>
+<pre>/wp-includes/js/underscore.min.js
+</pre><p>
+	<strong>wp.template is not a function</strong></p>
+<pre>/wp-includes/js/wp-util.min.js
+</pre><p>
+	<strong>mediaelementplayer is not a function</strong></p>
+<pre>/wp-includes/js/mediaelement/
+</pre><p>
+	<strong>moment is not defined</strong></p>
+<pre>/wp-includes/js/dist/vendor/moment.min.js
+</pre><p>
+	<strong>wp is not defined</strong></p>
+<pre>/wp-includes/js/dist/api-fetch.min.js
+/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/dist/i18n.min.js
+</pre><hr /><h2>Themes, plugins, services exclusions</h2><p>
+	<a href="https://wordpress.org/plugins/woo-variation-gallery/">Additional Variation Images Gallery for WooCommerce</a><br />
+	 Prevents delay in the loading of product images.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woo-variation-gallery/assets/js/slick.min.js
+/woo-variation-gallery/assets/js/frontend.min.js
+/wp-includes/js/underscore.min.js
+variation_custom_fields
+</pre><p>
+	<a href="https://themeforest.net/item/agensy-digital-lab-creative-solutions-theme/24103311">Agensy</a><br />
+	 Load page without user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/themes/agensy/js/scripts.js
+/themes/agensy/js/scripts-single.js
+/themes/agensy/js/wow.min.js
+/themes/agensy/js/TweenMax.min.js
+/themes/agensy/js/swiper.min.js
+/plugins/visualcomposer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js
+/wp-includes/js/imagesloaded.min.js
+</pre><p>
+	<a href="https://wordpress.dankov-themes.com/andaman/">Andaman</a><br />
+	 Unstuck the page loader (only use when jQuery is already excluded).</p>
+<pre>/andaman/assets/js/
+/wp-andaman-plugins/shortcodes/vc_extend/
+</pre><p>
+	<a href="https://themeforest.net/item/artale-wedding-photography-wordpress/31670402">Artale theme</a></p><p>
+	 Fixes the page loader (not closing) and display the main menu.</p>
+<pre>/artale-elementor/assets/js/modulobox.js
+/artale-elementor/assets/js/artale-elementor.js
+/artale/js/jquery-stellar.js
+/artale/js/core/artale-plugins.js
+/artale/js/core/artale-custom.js
+var loader
+</pre><p>
+	<a href="https://themeforest.net/item/artale-wedding-photography-wordpress/31670402"> </a><a href="https://wordpress.org/plugins/advanced-ads/">Advanced Ads</a></p><p>
+	 The latest versions of Advanced Ads include automatic compatibility with Delay JS. So please update them first: 
+	<em>Advanced Ads 1.27.0</em>, <em>Advanced Ads Pro 2.13.0</em>, and <em>Advanced Ads Tracking 2.1.0</em></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/uploads/(.*).js
+advanced_ads_ready
+advadsCfpQueue
+adsbygoogle
+adservice.google
+/advanced-ads(.*)
+advads_items
+advads_tracking_ads
+</pre><p>
+	<strong>Amazon Ads</strong></p><p>
+	 To show the ads:</p>
+<pre>amazon-adsystem.com
+</pre><p>
+	<strong><a href="https://www.cookieyes.com">CookieYes</a></strong></p><p>
+	 To show the cookie consent banner:</p>
+<pre>/cdn-cookieyes.com/client_data/(.*)/script.js
+</pre><p>
+	<a href="https://wpamelia.com/">Amelia</a></p><p>
+	 Display booking options without user interaction.</p>
+<pre>/wp-content/plugins/ameliabooking/(.*).js
+var hasAmeliaEvent
+</pre><p>
+	<a href="https://wordpress.org/plugins/amo-team-showcase/">AMO Team Showcase</a></p><p>
+	 To display team members.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/amo-team-showcase/public/js/wookmark.js
+/amo-team-showcase/public/js/amo-team-showcase-public.js
+/wp-includes/js/imagesloaded.min.js
+amoTeamVars
+</pre><p>
+	<a href="https://wordpress.org/plugins/cleantalk-spam-protect/">Anti-Spam by CleanTalk</a></p><p>
+	Prevent console error.</p>
+<pre>ctPublicFunctions
+ctPublic
+</pre><p>
+	<a href="https://wordpress.org/plugins/football-leagues-by-anwppro/">AnWP Football Leagues</a></p><p>
+Display FL Calendar Widget.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/football-leagues-by-anwppro/(.*)
+/football-leagues-by-anwppro-premium-premium/(.*)
+window.AnWPFLPro
+window.AnWPFLTabulator
+/elementor/assets/lib/flatpickr/flatpickr.min.js
+</pre><p>
+	<a href="https://www.elementoraddons.com/anywhere-elementor-pro/">Anywhere Elementor Pro</a></p><p>
+ Make links clickable.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/anywhere-elementor-pro/build/index.js
+</pre><p>
+	<a href="https://themesinfo.com/ashe-pro-premium-child-theme-wordpress-6gue">Ashe Pro Child theme</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ashe-pro-child/assets/js/custom-scripts.js
+/ashe-pro-child/assets/js/custom-plugins.js
+</pre><p>
+	<a href="https://wordpress.org/themes/astra/">Astra Theme</a></p>
+<pre>/astra/assets/js/minified/frontend.min.js
+replace\(/woocommerce-no-js/,
+</pre><p>
+	 Additional exclusion for Astra add-ons:</p>
+<pre>/astra-addon/astra-addon-(.*).js
+</pre><p>
+Load carousel:</p>
+<pre>var astra
+/astra/assets/js/minified/style.min.js
+</pre><p>
+	<a href="https://avada.theme-fusion.com/">Avada Theme</a></p><p>
+	 Fires animations, sliders, mobile-specific behaviors:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/uploads/fusion-scripts/(.*).js
+window.off_canvas_
+</pre><p>
+	 Or</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/plugins/fusion-builder/
+/plugins/fusion-core/
+/Avada/includes/
+</pre><p>
+	 Load mobile menu scripts without a delay:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/Avada/assets/min/js/general/avada-menu.js
+/Avada/includes/lib/assets/min/js/library/modernizr.js
+/Avada/includes/lib/assets/min/js/library/jquery.easing.js
+</pre><p>
+	 Fix sticky menu:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/Avada/assets/min/js/general/avada-menu.js
+</pre><p>
+	Load portfolio on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/library/packery.js
+/library/isotope.js
+/library/imagesLoaded.js
+/general/fusion-lightbox.js
+/fusion-core/js/min/avada-portfolio.js
+</pre><p>
+	 Load 
+	<a href="https://theme-fusion.com/documentation/categories/off-canvas/">Off Canvas</a> pop-ups without user interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/uploads/fusion-scripts/(.*).min.js
+window.off_canvas_
+</pre><p>
+	<strong> Avada Theme - FAQ Shortcode<br />
+	</strong></p><p>
+	 Displays content created with the FAQ shortcode:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-content/plugins/fusion-core/js/min/avada-faqs.js
+</pre><p>
+	<strong>Avada Theme - Fusion Builder</strong></p><p>
+	 To allow submiting forms.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/fusion-builder/assets/js/min/general/fusion-form.js
+/fusion-builder/assets/js/min/general/fusion-form-logics.js
+/Avada/includes/lib/assets/min/js/library/cssua.js
+/Avada/includes/lib/assets/min/js/general/fusion.js
+/Avada/includes/lib/assets/min/js/library/modernizr.js
+</pre><p>
+	<strong> Avada Theme - Fusion Carousel</strong></p><p>
+	 Display carousel on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/Avada/includes/lib/assets/min/js/library/jquery.carouFredSel.js
+/Avada/includes/lib/assets/min/js/general/fusion-carousel.js
+fusionCarouselVars
+</pre><p>
+	<strong>Avada Theme - Fusion Grid Gallery</strong></p><p>
+	 Display fusion grid gallery without delay:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/fusion-builder/assets/js/min/general/fusion-gallery.js
+/Avada/includes/lib/assets/min/js/library/imagesLoaded.js
+/Avada/includes/lib/assets/min/js/library/isotope.js
+/Avada/includes/lib/assets/min/js/library/packery.js
+/Avada/includes/lib/assets/min/js/library/lazysizes.js
+</pre><p>
+	<strong>Avada Theme - Fusion Slider</strong></p><p>
+	 Display fusion slider without delay:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/fusion-core/js/min/avada-fusion-slider.js
+/Avada/includes/
+</pre><p>
+	<strong>Avada Theme - Portfolio</strong></p><p>
+	 Show the Portfolio grid on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/Avada/includes/lib/assets/min/js/library/imagesLoaded.js
+/Avada/includes/lib/assets/min/js/library/isotope.js
+/Avada/includes/lib/assets/min/js/library/lazysizes.js
+/Avada/includes/lib/assets/min/js/library/modernizr.js
+/Avada/includes/lib/assets/min/js/library/packery.js
+/fusion-core/js/min/avada-portfolio.js
+avadaPortfolioVars
+</pre><p>
+	<strong>Avada Theme - WooCommerce Product Gallery</strong></p><p>
+	 To fix issue with Avada product gallery:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/Avada/assets/min/js/general/avada-woo-product-images.js
+/Avada/includes/lib/assets/min/js/library/jquery.flexslider.js
+</pre><p>
+	 Above's exclusions are automatically added to product pages using WooCommerce product gallery.</p><p>
+	<strong>Avesa Theme</strong></p><p>
+	 Display images on product pages.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/avesa/js/main.js
+/avesa/js/isotope.js
+/sw_core/js/slick.min.js
+/avesa/js/bootstrap-datetimepicker.min.js
+/avesa/js/bootstrap.min.js
+</pre><p>
+	<strong>Auteur Theme</strong></p><p>
+	 Fire the slider on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/g5plus-auteur/assets/js/core.min.js
+/g5plus-auteur/assets/vendors/
+/auteur-framework/libs/smart-framework/assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js
+/wp-includes/js/imagesloaded.min.js
+</pre><p>
+	<strong>Autptrader</strong></p><p>
+	Fire animations and layout rendering on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/autotrader/
+</pre><p>
+	<a href="https://muffingroup.com/betheme/">BeTheme</a></p><p>
+	 Trigger animations and makes the mobile menu immediately responsive:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/betheme/
+mfn
+/wp-includes/js/jquery/ui/tabs.min.js
+/wp-includes/js/jquery/ui/core.min.js
+</pre><p>
+	<a href="https://preview.thembay.com/besa/">Besa Theme</a></p><p>
+	 Trigger animations and makes the mobile menu immediately responsive:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/besa/js/
+</pre><p>
+	<a href="https://tcd-theme.com/tcd057">Birth Theme</a></p><p>
+	 To load the content with no interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/birth_057/js/slick.min.js
+/birth_057/js/jscript.js
+</pre><p>
+	<strong>Blossom Recipe Pro Theme</strong></p><p>
+	 Display Fontawesome icons without delay, Display images without delay when the theme's Lazyload is used. Fix the mobile menu</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/blossom-recipe-pro/js/custom.min.js
+/blossom-recipe-pro/js/layzr.min.js
+/blossom-recipe-pro/js/owl.carousel.min.js
+/blossom-recipe-pro/js/owlcarousel2-a11ylayer.min.js
+/blossom-recipe-pro/js/theia-sticky-sidebar.min.js
+/blossomthemes-toolkit/public/js/fontawesome/all.min.js
+/wp-includes/js/imagesloaded.min.js
+/wp-includes/js/masonry.min.js
+</pre><p>
+	<a href="https://bosathemes.com/bosa-online-education/">Bosa Online Education</a></p><p>
+	 Fix for the loading animation and displaying mobile menu.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/bosa/assets/js/jquery.slicknav.min.js
+/bosa/assets/slick/slick.min.js
+/bosa/assets/js/navigation.js
+/bosa/assets/js/custom.min.js
+/bosa/assets/js/theia-sticky-sidebar.min.js
+</pre><p>
+	<a href="https://www.wpbeaverbuilder.com/">Beaver Builder</a></p><p>
+	 To show parallax background, slideshow background and some animations instantly.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/uploads/bb-plugin/
+/bb-plugin/js/yui3.min.js
+/wp-includes/js/imagesloaded.min.js
+/bb-plugin/js/fl-slideshow.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/bdthemes-element-pack-lite/">BDThemes Element Pack Lite</a></p><p>
+	Display slider without interaction.</p>
+<pre>/bdthemes-prime-slider-lite/assets/js/bdt-uikit.min.js
+</pre><p>
+	<a href="https://getbooked.io/">Booked</a></p>
+<pre>/booked/
+/js/jquery/ui/datepicker.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/">Bookly</a></p><p>
+	 To load the booking form on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/bookly-responsive-appointment-booking-tool/frontend/
+window.bookly
+</pre><p>
+	<a href="https://borlabs.io/borlabs-cookie/">Borlabs Cookie</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+borlabsCookieConfig
+borlabs-cookie.min.js
+borlabsCookieContentBlocker
+BorlabsCookieBox
+</pre><p>
+	<a href="https://bridgelanding.qodeinteractive.com/">Bridge theme</a></p><p>
+	 Fixes page preloader not closing.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/bridge-creative/bridge/js/
+/wp-includes/js/
+</pre><p>
+	Load elements without user interaction:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/wp-content/themes/bridge/js/default.min.js
+/wp-content/themes/bridge/js/plugins.js
+/wp-content/themes/bridge/js/default_dynamic.js
+/wp-content/themes/bridge/js/jquery.touchSwipe.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/harmuny-a-responsive-wordpress-blog-theme/25046454">Harmuny - Modern WordPress Blog Theme</a></p><p>
+	 Load slideshow without user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/harmuny/
+</pre><p>
+	<a href="https://www.brizy.io/">Brizy</a></p><p>
+	 Prevents partially loading the slider.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/brizy/public/editor-build/(.*)-wp/editor/js/group-(.*).js
+/brizy/public/editor-build/(.*)-wp/editor/js/preview.js
+Brizy.emit
+</pre><p>
+	<a href="https://www.cocobasic.com/">Cardea Theme</a></p><p>
+	 Show content on page load:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/themes/cardea-wp/js/main.js
+/themes/cardea-wp/js/jquery.sticky.js
+/themes/cardea-wp/js/jquery.fitvids.js
+/themes/cardea-wp/js/jquery.smartmenus.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/car-dealer-automotive-responsive-wordpress-theme/20213334">Cardealer</a></p><p>
+	 Fix slider and form console errors:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/jquery/(.*)
+/cardealer/js/(.*)
+</pre><p>
+	<a href="https://themeforest.net/item/cheerup-blog-magazine-wordpress-blog-theme/16430770">CheerUp</a></p><p>
+	 Fix an issue with the links in the menu:</p>
+<pre>/cheerup/js/jquery.sticky-sidebar.js
+/cheerup/js/object-fit-images.js
+/cheerup/js/jquery.fitvids.js
+/cheerup/js/jquery.mfp-lightbox.js
+/cheerup/js/ie-polyfills.js
+/cheerup/js/theme.js
+/wp-includes/js/imagesloaded.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/wp-includes/js/jquery/jquery.min.js
+</pre><p>
+	<a href="https://17thavenuedesigns.com/shop/clover-wordpress-theme/">Clover Theme</a></p><p>
+	 Load the hamburger menu.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/clover-theme(.*)/
+</pre><p>
+	<a href="https://wordpress.org/plugins/forms-for-campaign-monitor/">Campaign Monitor for WordPress</a></p><p>
+	Fixes dependency on jQuery when using the Autotrader theme:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/forms-for-campaign-monitor/
+</pre><p>
+	<a href="https://wordpress.org/plugins/carousel-upsells-and-related-product-for-woocommerce/">Carousel Upsells and Related Product for Woocommerce</a></p><p>
+	 To load the carousel products with the correct spacing without interaction:</p>
+<pre>/carousel-upsells-and-related-product-for-woocommerce/assets/js/glide.min.js
+carusel_poduct_related
+</pre><p>
+	<a href="https://wordpress.org/plugins/chaty/">Chaty (Floating Chat Widget)</a></p><p>
+	The widget buttons are showed on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/chaty-pro/
+/chaty/
+</pre><p>
+	<a href="https://wordpress.org/plugins/clickskeks/">clickskeks.at Cookiebanner</a></p><p>
+	 Load the cookie banner without interaction.</p>
+<pre>clickskeks
+</pre><p>
+	<a href="https://www.pixelyoursite.com/plugins/consentmagic">ConsentMagic Pro</a></p><p>
+	 Load the consent popup without user interaction</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/wp-content/plugins/consent-magic-pro/js/cs-public.min.js
+/wp-content/plugins/pixelyoursite-pro/(.*)
+</pre><p>
+	<a href="https://wordpress.org/plugins/iubenda-cookie-law-solution/">Cookie and Consent Solution for the GDPR &amp; ePrivacy</a></p><p>
+	 To show the cookie banner without interaction:</p>
+<pre>iubenda_cs.js
+var _iub
+</pre><p>
+	<a href="https://it.wordpress.org/plugins/cookie-notice/">Cookie Notice &amp; Compliance for GDPR / CCPA</a></p><p>
+	 Loads the cookie notice on the screen.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/cookie-notice/
+var cnArgs
+</pre><p>
+	<a href="https://wordpress.org/plugins/cookiebot/">Cookiebot | GDPR/CCPA Compliant Cookie Consent and Control</a></p><p>
+	 Resolves issue with links not being clickable.</p>
+<pre>consent.cookiebot.com
+</pre><p>
+	<a href="https://wordpress.org/plugins/complianz-gdpr/">Complianz – GDPR/CCPA Cookie Consent</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+complianz
+</pre><p>
+	<a href="https://www.keywordrush.com/contentegg">Content Egg</a></p><p>
+	 Show charts on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/content-egg/res/js/morrisjs/morris.min.js
+/content-egg/res/js/morrisjs/raphael.min.js
+Morris.Area
+</pre><p>
+	<a href="https://theme.co/cornerstone/">Cornerstone plugin </a></p><p>
+	 Fix the issue with the hamburger menu, when Delay JavaScript execution is enabled the menu doesn't open</p>
+<pre>/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(?(.))?( |'|"|&gt;)
+/cornerstone/assets/js/site/cs-classic.(.*).js
+</pre><p>
+	<a href="https://woocommerce.com/products/coupon-referral-program/">Coupon Referral Program</a></p><p>
+	 Fixes non-breaking dependency error.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/coupon-referral-program/
+/wp-includes/js/jquery/ui/draggable.min.js
+</pre><p>
+	 Also requires excluding the following from JavaScript deferring:</p>
+<pre>/coupon-referral-program/
+</pre><p>
+	<a href="http://www.loftocean.com/">CozyStay Core</a></p><p>
+	 Fixes background images loading</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/cozystay-core/assets/scripts/front/parallax-bundle.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/customer-reviews-woocommerce/"></a></p><p>
+	<a href="https://wordpress.org/plugins/crisp/">Crisp – Live Chat and Chatbot</a></p><p>
+	 Allow the chat icon to be displayed:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+CRISP_RUNTIME_CONFIG
+l.js
+</pre><p>
+	<a href="https://smashballoon.com/custom-twitter-feeds/">Custom Twitter feeds pro</a></p><p>
+	 Allow Twitter feed pro to display a Twitter feed:</p>
+<pre>/custom-twitter-feeds-pro/js/ctf-scripts.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/customer-reviews-woocommerce/">Customer Reviews for WooCommerce Plugin</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/customer-reviews-woocommerce/js/colcade.js
+</pre><p>
+	<a href="https://www.elegantthemes.com/gallery/divi/">Divi</a></p><p>
+	 Divi 4.10+ Load animated elements without interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+.dipi_preloader_wrapper_outer
+/Divi/js/scripts.min.js
+/Divi/js/custom.unified.js
+/js/magnific-popup.js
+var DIVI
+</pre><p>
+	 Enable sticky elements on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+.dipi_preloader_wrapper_outer
+/Divi/js/scripts.min.js
+/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js
+var DIVI
+</pre><p>
+	 Play video background on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate.min.js
+/Divi/js/custom.unified.js
+/js/mediaelement/(.*)
+mejs
+</pre><p>
+	 Avoids a double tap to open the mobile menu:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate.min.js
+/Divi/js/scripts.min.js
+</pre><p>
+	 or</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate.min.js
+/Divi/js/custom.unified.js
+</pre><p>
+	 Compatibilty with the Number Counter module:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+.dipi_preloader_wrapper_outer
+/Divi/js/scripts.min.js
+/Divi/js/custom.unified.js
+/js/magnific-popup.js
+var DIVI
+/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js
+</pre><p>
+	 Hide sticky menu on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/js/jquery/jquery-migrate.min.js
+/Divi/js/scripts.min.js
+/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js
+jqueryParams
+firstHeader
+</pre><p>
+	 Avoid white flash when using 
+	<a href="https://www.markhendriksen.com/how-to-fix-divi-flashing-unstyled-content-on-page-load/">this trick to prevent Divi's own flashing</a>:</p>
+<pre>elm.style.display
+</pre><p>
+	<a href="https://divi-den.com/">Divi Den Pro</a></p><p>
+	 Fires animations and content created with Divi Den Pro.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ddpro/build/freddie/js/freddieScriptPageTransition.js
+/ddpro/build/freddie/js/freddieScriptsHeaders.js
+/ddpro/build/freddie/js/freddieScriptsContents.js
+/ddpro/build/freddie/js/gsap/gsap.min.js
+</pre><p>
+	<a href="https://divilife.com/downloads/divi-overlays/">Divi Overlays</a></p><p>
+	 Enable modals to be displayed on screen</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+.dipi_preloader_wrapper_outer
+/Divi/js/scripts.min.js
+/Divi/js/custom.unified.js
+var DIVI
+/divi-overlays/
+</pre><p>
+	<a href="https://toolbox.divilover.com/">Divitool Box</a></p><p>
+	 Page Preloader</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+jQuery('.preloader')
+</pre><p>
+	 Menu animations</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/divi-toolbox/assets/js/toolbox-scripts.js
+</pre><p>
+	<a href="https://diviengine.com/product/divi-mobile/">Divi Mobile</a> - Page Preloader</p><p>
+	 Avoid double click when using the mobile menu.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+divi-menu
+dm_nav
+</pre><p>
+	<a href="https://www.divi-pixel.com/">Divi Pixel</a> - Page Preloader</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+.dipi_preloader_wrapper_outer
+</pre><p>
+	<a href="https://divisupreme.com/">Divi Supreme</a></p><p>
+	Show the elements on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+.dipi_preloader_wrapper_outer
+/Divi/js/scripts.min.js
+/Divi/js/custom.unified.js
+/js/magnific-popup.js
+var DIVI
+/supreme-modules-for-divi/
+</pre><p>
+	Avoid white screen before user interaction</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+elm.style.display
+/supreme-modules-pro-for-divi/includes/modules/ImageCarousel/frontend.min.js
+/supreme-modules-pro-for-divi/public/js/swiper-bundle.min.js
+</pre><p>
+	<a href="https://www.elegantthemes.com/marketplace/dp-preloader/">DP - Preloader</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+jQuery('.loader').delay
+dp_preloader
+</pre><p>
+	<a href="https://softlabbd.com/dracula-dark-mode/">Dracula Dark Mode</a></p><p>
+	Show dark mode toggle button and apply styles without need for user interaction with page.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/wp-content/plugins/dracula-dark-mode-premium/assets/js/dark-mode.js
+/wp-content/plugins/dracula-dark-mode-premium/assets/js/frontend.js
+/wp-includes/js/dist/vendor/react-dom.min.js
+/wp-includes/js/dist/vendor/react.min.js
+/wp-includes/js/dist/api-fetch.min.js
+/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/dist/i18n.min.js
+draculaDarkMode
+</pre><p>
+	<a href="https://wordpress.org/plugins/woocommerce-dynamic-gallery/">Dynamic Product Gallery for WooCommerce</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woocommerce-dynamic-gallery/
+a3revWCDynamicGallery
+</pre><p>
+	<a href="https://a3rev.com/shop/woocommerce-dynamic-gallery/">Dynamic Product Gallery Premium for WooCommerce</a></p><p>
+	Load the gallery content without user interaction.</p>
+<pre>/jquery-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?$
+/jquery-migrate(.*)(.min|.slim|.slim.min)?.js(\?(.*))?$
+/woocommerce-dynamic-gallery-pro/assets/js/mygallery/jquery.a3-dgallery.js
+settings_defaults_
+a3revWCDynamicGallery
+</pre><p>
+	<a href="https://www.dynamic.ooo/">Dynamic.ooo - Dynamic Content for Elementor</a></p><p>
+	Show dynamic content</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+/wp-includes/js/imagesloaded.min.js
+ElementorProFrontendConfig
+elementorFrontendConfig
+/dynamic-content-for-elementor/assets/lib/expressionlanguage/expressionlanguage.min.js
+/dynamic-content-for-elementor/assets/js/conditional-fields.min.js
+/dynamic-content-for-elementor/assets/js/settings.min.js
+/dynamic-content-for-elementor/assets/js/fix-background-loop.min.js
+/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/dist/i18n.min.js
+</pre><p>
+	<a href="https://judge.me/">judge.me</a></p><p>
+	 Adds review markup on page load (needed for search engines to read it properly)</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/judgeme_widget_v(.*).js
+jdgmSettings
+</pre><p>
+	 Prevent Google search console errors on product missing fields (
+	<a href="https://rich-snippets.io/schema-for-woocommerce/">rich snippets schema</a>)</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/judgeme_widget_v(.*).js
+jdgmSettings
+loader.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/easy-table-of-contents/">Easy Table of Contents</a></p><p>
+	 Avoid the Easy Table of Contents to briefly open when the page loads.</p>
+<pre>/easy-table-of-contents/assets/js/front.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/ecwid-shopping-cart/">Ecwid Ecommerce Shopping Cart</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js 
+app.ecwid.com/script.js 
+/ecwid-shopping-cart/js/frontend.js 
+/ecwid-shopping-cart/js/static-page.js 
+ecwidParamswindow.ec 
+jQuery.mobile 
+xSearch 
+xCategoriesV2 
+xProductBrowser 
+Ecwid.init
+</pre><p>
+	<a href="https://www.radiustheme.com/downloads/eikra-education-wordpress-theme/">Eikra</a></p><p>
+	 Fixes preloader not closing.</p>
+<pre>/jquery(-migrate)?((.min|.slim|.slim.min)|(.*)?([0-9]+)(.min|.slim|.slim.min))?.js
+/eikra/assets/js/
+EikraObj
+</pre><p>
+	<a href="ekko">Ekko</a></p><p>
+	 Fixes preloader (blank page) not closing.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ekko/
+</pre><p>
+	<a href="https://www.elementpack.pro/">Element Pack Pro</a></p><p>
+ Fix issues with gallery and product carousels.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/bdthemes-element-pack/assets/js/modules/ep-static-carousel.min.js
+/bdthemes-element-pack/assets/js/modules/ep-custom-carousel.min.js
+/bdthemes-element-pack/assets/js/modules/ep-slideshow.min.js
+/bdthemes-element-pack/assets/js/modules/ep-product-carousel.min.js
+/bdthemes-element-pack/assets/js/modules/ep-stacker.min.js
+/bdthemes-element-pack/assets/js/bdt-uikit.min.js
+/bdthemes-element-pack/assets/js/common/helper.min.js
+/bdthemes-element-pack/assets/vendor/js/ScrollTrigger.min.js
+/bdthemes-element-pack/assets/vendor/js/gsap.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/ele-custom-skin/">Elementor Custom Skin</a></p><p>
+	Fixes console error when Elementor scripts are excluded</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/ele-custom-skin(.*)/assets/js/
+</pre><p>
+	<a href="https://wordpress.org/plugins/header-footer-elementor/">Elementor Header &amp; Footer Builder</a></p><p>
+	 Fixes menu not opening (on an issue if 
+	<a href="#elementor-pro">Elementor scripts</a> are excluded from delay):</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/header-footer-elementor/inc/js/frontend.js
+</pre><p>
+	<a href="https://elementor.com/">Elementor Pro</a></p><p>
+	 Show elements, galleries, and start animations:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+/wp-includes/js/imagesloaded.min.js
+ElementorProFrontendConfig
+elementorFrontendConfig
+</pre><p>
+	 When 
+	<strong>User Cache </strong>is active the following exclusions will resolve console errors:</p>
+<pre>/wp-includes/js/underscore.min.js
+/wp-includes/js/jquery/ui/core.min.js
+/wp-includes/js/backbone.min.js
+elementorAdminBarConfig
+elementorCommonConfig
+elementorWebCliConfig
+elementorDevToolsConfig
+</pre><p>
+	<a href="https://elementor.com/">Elementor Pro: SmartMenus</a><br />
+	 Fixes the mobile menu</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js
+/elementor-pro/assets/js/preloaded-elements-handlers.min.js
+</pre><p>
+	<a href="https://essential-addons.com/elementor/">Essential Addons for Elementor</a><br />
+	 Start the carousel on page load</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/essential-addons(-for)?-elementor(-lite)?/.*(.min)?.js
+</pre><p>
+	<a href="https://elementor/elementor.php">Elementor - Lazy Load Background Images</a>
+	<br />
+Start background images so they load immediately:</p>
+<pre>lazyloadRunObserver
+</pre><p>
+	<a href="https://wordpress.org/plugins/eventon-lite/">EventON Lite</a><br />
+	 Load the events calendar on page load</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/eventon-lite/assets/js/(.*)
+</pre><p>
+	<a href="https://happyaddons.com/">Happy Elementor Addons Pro</a><br />
+	 Avoid broken functionality in addons when Elementor default Exclusions are in place.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/happy-elementor-addons-pro/
+</pre><p>
+	<a href="https://themeforest.net/item/elessi-woocommerce-ajax-wordpress-theme/20968615">Elessi Theme</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elessi-theme/assets/js/min/functions.min.js
+/elessi-theme/assets/js/min/main.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/enfold-responsive-multipurpose-theme/4519990">Enfold Theme</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/dynamic_avia/avia-footer-scripts-(.*).js
+var avia_is_mobile
+</pre><p>
+	 When using theme's shortcodes:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/enfold/js/avia(.min)?.js
+/enfold/js/shortcodes(.min)?.js
+/enfold/config-templatebuilder/avia-shortcodes/
+/enfold/js/avia-compat(.min)?.js
+/enfold/js/waypoints/waypoints.min.js
+/enfold/js/avia-snippet-(.*).js
+/enfold/js/avia-js(.min)?.js
+/enfold/js/aviapopup/jquery.magnific-popup(.min)?.js
+</pre><p>
+	 Loads the slider without user interaction when using Enfold's Layerslider implementation:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+layerslider
+</pre><p>
+	<a href="https://themeforest.net/item/envision-responsive-retina-multipurpose-theme/5928018">Envision Theme</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/envision/lib/js/app.min.js
+var CloudFwOp
+</pre><p>
+	<a href="https://themeforest.net/item/essentials-multipurpose-wordpress-theme/27889640">Essentials | Multipurpose WordPress Theme</a></p><p>
+	Fixes preloader (blank page).</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/essentials/js/essentials.min.js
+/essentials/js/build/bootstrap-select.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/ewebot-seo-and-marketing-agency-wordpress-theme/24776025">Ewebot Theme (GT3 Themes)</a></p><p>
+	 Fire animations on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/gt3-themes-core/
+/uploads/gt3-assets/js/(.*)
+/wp-includes/js/imagesloaded.min.js
+</pre><p>
+	Allow the page to load without interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-content/themes/ewebot/dist/js/theme.js
+</pre><p>
+	<a href="https://www.essential-grid.com/">Essential Grid</a></p><p>
+	 Load grid without interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/essential-grid/
+lightboxOptions
+</pre><p>
+	<a href="https://themeforest.net/item/farvis-multipurpose-wordpress-theme/20896134">Farvis Theme</a></p><p>
+	Fire animations and layout rendering on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/farvis/
+</pre><p>
+	<a href="https://flatsome3.uxthemes.com/">Flatsome Theme</a><br />
+	 Avoid homepage slider delay. 
+	<br />
+	 Allow zoom on the product image gallery.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/flatsome/assets/js/flatsome.js
+/flatsome/assets/libs/packery.pkgd.min.js
+/flatsome/assets/js/woocommerce.js
+</pre><p>
+	 Allow images to load immediately.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/flatsome/inc/integrations/wp-rocket/flatsome-wp-rocket.js
+/flatsome/assets/js/flatsome.js
+/flatsome/inc/extensions/flatsome-lazy-load/flatsome-lazy-load.js
+</pre><p>
+	 Show Google Map on page load</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+maps.googleapis.com
+google.maps.LatLng
+</pre><p>
+	 Depending on your configuration, you may also need to exclude the file below, in addition to the ones above. 
+	<br />
+	 This one is also necessary to allow zoom on the product image gallery.</p>
+<pre>/wp-includes/js/hoverIntent.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/frida-a-sweet-classic-blog-theme/10623362">Frida Theme</a><br />
+	 Display images without user interaction and avoid issues with simpleLighbox images</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/wp-content/themes/frida/(.*)
+</pre><p>
+	<a href="https://facetwp.com/">FacetWP</a></p>
+<pre>/facetwp/assets/js/dist/front.min.js
+window.FWP_
+</pre><p>
+	<a href="https://facetwp.com/">FacetWP - Flyout menu</a></p>
+<pre>/facetwp-flyout/assets/js/front.js
+</pre><p>
+	<a href="https://fooplugins.com/foogallery-wordpress-gallery-plugin/">Foogallery </a></p><p>
+	 Prevents delay in the loading of product images.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/plugins/foobox-image-lightbox/free/js/foobox.free.min.js
+/plugins/foogallery-premium/pro/extensions/default-templates/shared/js/foogallery.min.js
+</pre><p>
+	<a href="https://fibofilters.com">FiboFilters Premium</a><br />
+	 Display filter without need for user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/fibofilters-pro/build/front-pro/front.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/ajax-search-for-woocommerce/">FiboSearch – Ajax Search for WooCommerce</a><br />
+	 Avoid search modals moving to the top when adding keyword in the input field.</p>
+<pre>/wp-includes/js/jquery/jquery.js
+/wp-includes/js/jquery/jquery-migrate.js
+/ajax-search-for-woocommerce-premium/assets/js/search.js
+</pre><p>
+	<a href="https://formidableforms.com/">Formidable Forms</a></p><p>
+	Prevent the delay of the function and the file that processes the signature.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+frmSigs
+/formidable-signature/js/frm.signature.min.js
+</pre><p>
+	<a href="https://flothemes.com/flexblock/">Flexblock (Flothemes)</a></p><p>
+	 Fire animations and show images on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/flo-flex-builder/dist/flex-public.min.js
+flexDebug
+</pre><p>
+	<a href="https://fluentforms.com/">Fluent Forms</a></p><p>
+	 Fixes files upload field:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/fluentform/public/js/(.*).js
+/fluentformpro/public/js/(.*).js
+</pre><p>
+	<small>Requires exlcuding jQuery from JavaScript deferring as well</small></p><p>
+	<a href="https://wordpress.org/plugins/nazy-load/">Flying Images by WP Speed Matters</a><br />
+	 Fixes images not being loaded until there is user interaction</p>
+<pre>flyingImages
+</pre><p>
+	<a href="https://wordpress.org/plugins/forminator/">Forminator plugin</a><br />
+	 Display form without interaction</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+forminatorFront
+/forminator/build/front/front.multi.min.js
+/forminator/assets/js/library/jquery.validate.min.js
+/forminator/assets/forminator-ui/js/forminator-form.min.js
+/forminator/assets/forminator-ui/js/select2.full.min.js
+/wp-includes/js/jquery/ui/datepicker.min.js
+/wp-includes/js/dist/vendor/moment.min.js
+</pre><p>
+	<a href="https://www.webtoffee.com/product/gdpr-cookie-consent/">GDPR Cookie Consent</a></p><p>
+	 Show the consent banner on page load.</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/public/js/cookie-law-info-public.js
+Cli_Data
+</pre><p>
+	<a href="https://wordpress.org/plugins/gdpr-cookie-compliance/">GDPR Cookie Compliance (CCPA ready)</a></p><p>
+	 Show the consent banner on page load.</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/gdpr-cookie-compliance/dist/scripts/main.js
+</pre><p>
+	<a href="https://bold-themes.com/gardena-wordpress-theme-landscaping-gardening/">Gardena theme</a><br />
+	Fixes the error message for Largest contentful paint in PageSpeed report, when feature is enabled.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/gardena/
+</pre><p>
+	<a href="https://generatepress.com/">GeneratePress</a><br />
+	 Fixes the mobile menu requiring a double touch, if touching the mobile menu is the first interaction of a visitor with the page.</p>
+<pre>/generatepress/assets/js/menu.min.js
+generatepressMenu
+/gp-premium/menu-plus/functions/js/offside.min.js
+</pre><p>
+	<a href="https://qodeinteractive.com/wordpress-theme/healthfirst-nutrition-and-recipes-theme/">HealthFirst</a></p><p>
+	When Delay JavaScript Execution is enabled, there are console errors.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/wp-includes/js/hoverIntent.min.js
+/wp-content/plugins/healthfirst-core/assets/js/healthfirst-core.min.js
+/wp-content/plugins/healthfirst-core/assets/plugins/modernizr/modernizr.js
+/wp-content/plugins/healthfirst-core/assets/plugins/perfect-scrollbar/perfect-scrollbar.jquery.min.js
+/wp-content/themes/healthfirst/assets/js/main.min.js
+/wp-content/themes/healthfirst/assets/plugins/waitforimages/jquery.waitforimages.js
+</pre><p>
+	<a href="https://honor.ancorathemes.com/welcome/">Honor</a><br />
+	 Only required if used with WPBakery plugin to fix some dependencies issues:</p>
+<pre>/honor/js/__scripts.js
+HONOR_STORAGE
+/js_composer/
+</pre><p>
+	<a href="https://demo.goodlayers.com/hotelmaster/landing/">HotelMaster</a><br />
+	 Fixes double touch required to use the menu on mobile.</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/hotelmaster/javascript/gdlr-script.js
+/hotelmaster/plugins/dl-menu/modernizr.custom.js
+/hotelmaster/plugins/dl-menu/jquery.dlmenu.js
+/hotelmaster/plugins/superfish/js/superfish.js
+/hotelmaster/plugins/jquery.easing.js
+</pre><p>
+	 Display blog archive posts in a masonry layout without user interaction.</p>
+<pre>/gp-premium/menu-plus/functions/js/offside.min.js
+offSide
+</pre><p>
+	 Loads the blog</p>
+<pre>/wp-includes/js/masonry.min.js
+/gp-premium/blog/functions/js/scripts.min.js
+/wp-includes/js/imagesloaded.min.js
+</pre><p>
+	<a href="">Getwid – Gutenberg Blocks</a></p><p>
+	 Fixes tabs when jQuery is excluded from Delay JavaScript Execution.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/wp-includes/js/jquery/ui/tabs.min.js
+/wp-includes/js/jquery/ui/core.min.js
+</pre><p>
+	<a href="https://es.wordpress.org/plugins/give/">GiveWP</a></p><p>
+	 Closes the preloader.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/give/assets/dist/js/give.js
+/wp-includes/js/dist/api-fetch.min.js
+/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/dist/i18n.min.js
+</pre><p>
+	<strong>Google AdSense</strong></p>
+<pre>adsbygoogle
+</pre><p>
+	<strong>Google Analytics</strong></p>
+<pre>google-analytics.com/analytics.js
+ga\( '
+ga\('
+</pre><p>
+	<strong> Google Maps</strong></p>
+<pre>maps.googleapis.com
+maps.google.com
+</pre><p>
+	<strong>Google Optimize</strong></p>
+<pre>a,s,y,n,c,h,i,d,e
+googleoptimize.com/optimize.js
+</pre><p>
+	<a href="https://support.google.com/optimize/answer/7100284?hl=en">Google Optimize - Anti-flicker snippet</a></p><p>
+	 Prevent a flicker or blank screen. You must exclude the following 
+	<em> in addition</em> to either your Google Optimize code (see above) or your Tag Manager code (see below)</p>
+<pre>async-hide
+</pre><p>
+	<a href="https://www.google.com/recaptcha/about/">Google Recaptcha</a></p><p>
+	 Fixes dependency issues related to Google Recaptcha:</p>
+<pre>recaptcha
+</pre><p>
+	<strong>Google Tag Manager</strong></p>
+<pre>/gtag/js
+gtag\(
+/gtm.js
+</pre><p>
+	<a href="https://woocommerce.com/products/google-tag-manager-for-woocommerce-pro/">Google Tag Manager for WooCommerce PRO</a></p><p>
+	Fire tracker on page load.</p>
+<pre>/gtm-ecommerce-woo-pro/assets/gtm-ecommerce-woo-pro.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/duracelltomi-google-tag-manager/">Google Tag Manager for WordPress</a></p><p>
+	 Stop the white screen flash after user interaction</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+dataLayer
+</pre><p>
+	<a href="https://gravitec.net/">Gravitec.net Push</a></p><p>
+	 Display the push notification.</p>
+<pre>storage/(.*)/client.js
+</pre><p>
+	<a href="https://www.hubspot.com/">HubSpot</a></p><p>
+	Display the form.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+js(.*).hsforms.net
+hbspt.forms.create
+</pre><p>
+	<a href="https://www.gravityforms.com/">Gravity Forms</a></p><p>
+	 Load forms on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/gravityforms/
+gform
+</pre><p>
+	 Fix recaptcha console errors:</p>
+<pre>recaptcha
+</pre><p>
+	 Fixes the form and console errors when conditions are used</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/gravityforms/js/conditional_logic.min.js
+</pre><p>
+	Avoid JavaScript errors in the console and form not displayed when the Gravity form one-click exclusion is checked.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/plupload/plupload.min.js
+/wp-includes/js/plupload/moxie.min.js
+</pre><p>
+	<a href="https://gravitywiz.com/documentation/gravity-forms-page-transitions/">Gravity Forms - Page Transitions<br />
+	</a>To load the form without interaction - Gravity Forms one-click exclusion should also be checked.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/plugins/gp-page-transitions/js/
+</pre><p>
+	<a href="https://greenforms.pro/">Green Forms</a></p><p>
+	 Load forms without any delay:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+leform.min.js
+leform_customjs_handlers
+leform_ajax_url
+</pre><p>
+	<a href="https://gtranslate.io/">GTranslate (Free plan - Language selector widget) </a></p><p>
+	 To enable immediate translation on the page without user interaction</p>
+<pre>translate.google.com
+googleTranslateElementInit
+</pre><p>
+	<a href="https://maestrel.com/documentation/hbook/en/">Hbook</a><br />
+	 Render the form on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/hbook/
+hb_booking_form_data
+hb_max_date
+</pre><p>
+	<a href="https://smashballoon.com/instagram-feed">Instagram Feed pro</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/instagram-feed-pro/js/sbi-scripts.min.js
+sb_instagram_js_options
+</pre><p>
+	<a href="https://interactivegeomaps.com">Interactive Geo Maps</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/interactive-geo-maps-premium/assets/public/map-service/app.min.js
+/interactive-geo-maps/assets/public/map-service/app.js
+iMapsData
+cdn.amcharts.com/lib/
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetblocks">JetBlocks</a><br />
+	 Enable dropdown on hover on the Cart and enable Mobile Sticky Header</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jet-blocks/assets/js/jet-blocks.min.js
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetblog/">JetBlog</a> <br />
+	 News ticker to work on pageload (in addition to any other Jet exclusions).</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor-pro/
+/elementor/
+/jet-blog/
+ElementorProFrontendConfig
+elementorFrontendConfig
+hasJetBlogPlaylist
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetelements/">JetElements</a> <br />
+	 Load JetElements on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/jet-elements/
+hasJetBlogPlaylist
+jetElements
+/wp-includes/js/jquery/ui/
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetmenu/">JetMenu</a></p><p>
+	 Mobile menu to show on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor-pro/
+/elementor/
+/jet-blog/assets/js/lib/slick/slick.min.js
+/jet-elements/
+/jet-menu/
+elementorFrontendConfig
+ElementorProFrontendConfig
+hasJetBlogPlaylist
+JetEngineSettings
+jetMenuPublicSettings
+</pre><p>
+	 When using JetMenu with JetReviews</p>
+<pre>/jet-reviews/assets/js/lib/vue.min.js
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetpopup/">JetPopup</a></p><p>
+	 To show the pop up</p>
+<pre>/jet-popup/assets/js/lib/anime-js/anime.min.js
+/jet-popup/assets/js/jet-popup-frontend.js
+/jet-woo-builder/
+var jetPopupData
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetproductgallery/">JetProductGallery</a></p><p>
+	 To avoid issues with the product gallery on the product page:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jet-woo-product-gallery/assets/lib/swiper/swiper.min.js
+/jet-woo-product-gallery/assets/js/jet-woo-product-gallery.min.js
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetreviews/">JetReviews For Elementor</a></p><p>
+	 To show the reviews on the product page:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jet-reviews/assets/js/jet-reviews-frontend.js
+/jet-reviews/assets/js/lib/vue.min.js
+jetReviewsWidget
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetsearch/">JetSearch</a></p><p>
+	To display the list of results when using the search box.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/jet-search/assets/lib/chosen/chosen.jquery.min.js
+/jet-search/assets/js/jet-search.js
+/jet-search/assets/lib/jet-plugins/jet-plugins.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/jetsticky-for-elementor/">JetSticky For Elementor</a></p><p>
+	 Allows sticky menu and sidebar to be displayed:</p>
+<pre>/jetsticky-for-elementor/
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jettabs/">JetTabs for Elementor</a></p><p>
+	 To make the tab functionality work correctly.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/elementor/
+/elementor-pro/
+/wp-includes/js/imagesloaded.min.js
+ElementorProFrontendConfig
+elementorFrontendConfig
+/wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jettricks/">JetTricks - Visual effects for Elementor</a></p><p>
+	 To display animations.</p>
+<pre>/jet-tricks/
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetwoobuilder/">JetWoo Widgets For Elementor</a> <br />
+	 Load JetWoo carousel on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/jetwoo-widgets-for-elementor/assets/js/jet-woo-widgets.js
+/jet-woo-builder/assets/js/jet-woo-builder.min.js
+/jet-woo-builder/assets/js/frontend.min.js
+/wp-includes/js/imagesloaded.min.js
+</pre><p>
+	<a href="https://crocoblock.com/plugins/jetwoobuilder/">JetWooBuilder - Custom Quantity Selector</a> <br />
+	Add quantity buttons to add to cart.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/dist/i18n.min.js
+/elementor-pro/
+/elementor/
+elementorFrontendConfig
+ElementorProFrontendConfig
+JetEngineSettings
+/jet-woo-builder/
+/jet-woo-builder-custom-quantity-selectors-main/assets/js/main.js
+</pre><p>
+	<a href="https://themeforest.net/item/jannah-wordpress-news-magazine-theme/19659555?irgwc=1&amp;clickid=xHWzqiy9kxyPTkLWC9QxY2T5UkFVhZVNFU7YS80&amp;iradid=275988&amp;irpid=324279&amp;iradtype=ONLINE_TRACKING_LINK&amp;irmptype=mediapartner&amp;mp_value1=">Jannah</a></p><p>
+    Fix masonry grid</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/masonry.min.js
+/wp-includes/js/jquery/jquery.masonry.min.js
+tie-
+</pre><p>
+	<a href="https://jnews.io/">Jnews</a></p><p>
+	 Toggle the search box on mobile:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate.min.js
+/jnews/assets/js/(.*)
+jnews
+jfla
+</pre><p>
+	 Load images without interaction:</p>
+<pre>/jnews/assets/js/modernizr-custom.js
+</pre><p>
+	<a href="http://themeforest.net/item/jobify-wordpress-job-board-theme/5247604?ref=Astoundify">Jobify</a></p><p>
+	 Prevent white space on the mobile header before user interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate.min.js
+/jobify/js/jobify.min.js
+/jobify/js/select2.full.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/joyn-creative-multipurpose-theme/8854021">JOYN Theme</a></p><p>
+	 Prevent the page from not loading on mobile devices</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/swift-framework/includes/page-builder/frontend-assets/js/lib/modernizr-custom.js
+/swift-framework/includes/page-builder/frontend-assets/js/spb-functions.min.js
+/swift-framework/includes/swift-slider/assets/js/swift-slider.min.js
+/swift-framework/public/js/lib/imagesloaded.pkgd.min.js
+/themes/joyn/js/owl.carousel.min.js
+/themes/joyn/js/theme-scripts.js
+/themes/joyn/js/functions.js
+</pre><p>
+	<a href="https://themeforest.net/item/juno-kids-toys-games-store/17354674">Juno Toys</a></p><p>
+	 Display the swiper/carousel products:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate.min.js
+/junotoys/fw/js/core.init.js
+/junotoys/fw/js/core.utils.js
+/junotoys/fw/js/superfish.js
+/junotoys/fw/js/swiper/swiper.js
+/trx_utils/shortcodes/theme.shortcodes.js
+/wp-includes/js/jquery/ui/(.*)
+</pre><p>
+	<a href="https://themeforest.net/item/jupiter-multipurpose-responsive-theme/5177775">Jupiter</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jupiter/(.*).js
+/wp-includes/js/underscore.min.js
+</pre><p>
+	 You may also need additionally exclude the following inline JavaScript for loading the font immediately:</p>
+<pre>WebFont.load
+</pre><p>
+	<a href="https://themeforest.net/item/jupiter-multipurpose-responsive-theme/5177775">Jupiter X</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jupiterx/(.*).js
+/wp-includes/js/underscore.min.js
+</pre><p>
+	 You may also need additionally exclude the following inline JavaScript for loading the font immediately:</p>
+<pre>WebFont.load
+</pre><p>
+	<a href="https://layerslider.com/"> LayerSlider </a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/LayerSlider/assets/static/layerslider/js/layerslider.utils.js
+/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js
+/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js
+initLayerSlider
+</pre><p>
+	<a href="http://www.loftocean.com/">LoftLoader Pro</a></p><p>
+	 Prevent the page from getting stuck in the loader and load the page content without user interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+loftloader.min.js
+</pre><p>
+	<a href="https://themeisle.com/themes/neve/">Neve theme</a></p><p>
+	 Prevents the need for a double tap on the mobile menu.</p>
+<pre>/neve/assets/js/build/modern/frontend.js
+</pre><p>
+	<a href="https://themeforest.net/item/newspaper/5489609">Newspaper theme</a></p><p>
+	 Loads images without delay:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+tagdiv_theme.min.js
+tdBlocksArray
+</pre><p>
+	Render the slider and Youtube videos on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+tagdiv_theme.min.js
+tdBlocksArray
+tdb_globals
+td_youtube_list_ids
+iosSlider
+/td-cloud-library/assets/js/js_files_for_front.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/niva-creative-agency-freelancer-wordpress-theme/22732180">Niva theme</a></p><p>
+	 Trigger the page loader and the typewriter:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/niva/js/
+/sweetthemes-framework/js/
+mt_typed
+</pre><p>
+	<a href="https://oceanwp.org/">OceanWP theme</a> <br />
+	 Avoids double tap on mobile menu</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ocean-side-panel/assets/js/side-panel.min.js
+/oceanwp/assets/js/theme.vanilla.min.js
+</pre><p>
+	 Fixes some non-function breaking browser console errors.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/oceanwp/
+</pre><p>
+	<a href="https://kadence-theme.com/">Kadence Theme</a></p><p>
+	 Avoid double click to open mobile menu and search button</p>
+<pre>/kadence/assets/js/navigation.min.js
+mobile_menu_breakpoint 
+kadenceConfig
+</pre><p>
+	<a href="https://themeforest.net/item/kalium-creative-theme-for-professionals/10860525">Kalium Theme</a><br />
+	 Fixes the hamburger menu.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/kalium/assets/js/main.min.js
+mobile_menu_breakpoint
+var _k
+</pre><p>
+	<a href="https://crocoblock.com/kava/">Kava Theme</a><br />
+	 Fixes the header color issue.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/themes/kava/assets/js/theme-script.js
+</pre><p>
+	<a href="https://www.mojomarketplace.com/item/lazanews-wordpress-magazine">LazaNews Theme</a><br />
+	 Prevents the page preloading animation from being stuck until user interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jquery.custom.js
+</pre><p>
+	<a href="https://laytheme.com/">Lay Theme</a><br />
+	 Start showing content on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/backbone.min.js
+/wp-includes/js/underscore.min.js
+/lay/
+/laytheme-carousel/
+window.laytheme
+</pre><p>
+	<a href="https://purethemes.net/listeo/">Listeo Theme</a><br />
+	 Render the page on pageload</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/listeo/js/
+</pre><p>
+	<a href="https://themeforest.net/item/listingpro-multipurpose-directory-theme/19386460">Listingpro</a></p><p>
+		Display the map and avoid console errors.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/listingpro/assets/lib/jquerym.menu/js/jquery.mmenu.min.all.js
+/listingpro/assets/lib/Magnific-Popup-master/jquery.magnific-popup.min.js
+/listingpro/assets/js/select2.full.min.js
+/listingpro/assets/js/jquery.city-autocomplete.js
+/listingpro/assets/js/chosen.jquery.min.js
+/listingpro/assets/lib/bootstrap/js/bootstrap-slider.js
+/listingpro/assets/js/jquery-ui.js
+/listingpro/assets/js/mapbox.js
+/listingpro/assets/js/main.js
+/listingpro/assets/js/leaflet.markercluster.js
+maps
+</pre><p>
+	<a href="https://www.mapsmarker.com/">Maps Marker Pro</a><br />
+	 Load map on pageload.</p>
+<pre>/maps-marker-pro/js/mapsmarkerpro.js
+var mapsMarkerPro
+</pre><p>
+	<a href="https://stylemixthemes.com/masterstudy/">Master Study Theme</a><br />
+	 Prevents the page preloading animation from being stuck until user interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/masterstudy/assets/js/custom.js 
+/masterstudy/assets/vendors/jquery.fancybox.min.js 
+/masterstudy/assets/js/select2.full.min.js
+</pre><p>
+	<a href="https://www.studiopress.com/themes/mai-delight/">Mai Delight Theme</a></p><p>
+	 Renders mobile menu on pageload</p>
+<pre>/mai-engine/assets/js/min/menus.min.js
+maiMenuVars
+no-js
+</pre><p>
+	<a href="https://themeforest.net/item/maya-smart-powerful-wp-theme/9660706">Maya Theme</a></p><p>
+	 Convert the mobile menu into a selector form on mobile devices without user interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/maya/js/jquery.mobilemenu.js
+/maya/js/jquery.custom.js
+/maya/core/includes/js/jquery.tipsy.js
+</pre><p>
+	<a href="https://www.masterslider.com">Master Slider – Responsive Touch Slider</a></p><p>
+	 Prevents Master Slider to be initially hidden</p>
+<pre>masterslider
+</pre><p>
+	<a href="https://wordpress.org/plugins/mailup-email-and-newsletter-subscription-form/">MailUp for WordPress – Email and Newsletter Subscription Form</a></p><p>
+	 Enables subscription from to be submited</p>
+<pre>/mailup-email-and-newsletter-subscription-form/public/js/mailup-public.js
+mailup-js-extra
+</pre><p>
+	<a href="https://wordpress.org/plugins/maintenance/">Maintenance</a></p><p>
+	 Removes the preload spinner without interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/maintenance/
+</pre><p>
+	<a href="https://www.megamenu.com/">Max Mega Menu</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/hoverIntent.min.js
+/megamenu/js/maxmegamenu.js
+var megamenu
+</pre><p>
+	 For the Pro version this file 
+	<strong>may need to</strong> be excluded too:</p>
+<pre>/megamenu-pro/assets/public.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/ml-slider/">Meta Slider</a></p><p>
+	 Shows the slider on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ml-slider/
+var metaslider
+</pre><p>
+	<a href="https://www.mediavine.com/">Mediavine</a></p>
+<pre>scripts.mediavine.com
+</pre><p>
+	<a href="https://mhthemes.com/themes/mh-magazine/">MH Magazine Theme</a></p><p>
+	Display menus on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/mh-magazine/
+</pre><p>
+	<a href="https://minimog-landing.thememove.com/">Minimog Theme</a></p><p>
+	Display menus on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/minimog/
+</pre><p>
+	<a href="https://themeforest.net/item/molla-multipurpose-woocommerce-theme/28487727">Molla Theme</a></p><p>
+	Display WooCommerce product gallery images on page load.</p>
+<pre>/jquery-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?$
+/jquery-migrate(.*)(.min|.slim|.slim.min)?.js(\?(.*))?$
+/wp-content/themes/molla/assets/js/plugins/jquery.plugin.min.js
+/wp-content/themes/molla/assets/js/plugins/jquery.lazyload.js
+/wp-content/themes/molla/inc/lib/pro/skeleton/skeleton.js
+/wp-content/themes/molla/assets/js/sticky.js
+/wp-content/themes/molla/assets/js/main.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/google-analytics-for-wordpress/">Monster Insights</a></p>
+<pre>__gtagTracker
+monsterinsights_frontend
+/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js
+</pre><p>
+	<a href="https://motion.page/">Motion.page</a></p><p>
+	Fixes any issue with Motion.page animations</p>
+<pre>/motionpage/core/includes/assets/js/(.*)
+/motionpage/core/includes/assets/js/gsap/(.*)
+/motionpage/assets/js/(.*)
+/motionpage/assets/js/gsap/(.*)
+</pre><p>
+	<a href="https://kutethemes.com/">Moozo Elementor Theme</a></p><p>
+	 Display the countdown timer without interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/moozo-elementor/assets/js/countdown.js
+/moozo-elementor/assets/vendor/countdown/countdown.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/ninja-forms/">My Listing Theme</a></p><p>
+	 Show the content on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/my-listing/assets/
+/wp-includes/js/dist/vendor/moment.min.js
+maps.googleapis.com
+MyListing
+_Explore_Settings
+</pre><p>
+	<a href="https://get.nicejob.com/product/reviews">NiceJob Reviews</a></p><p>
+	 Prevent the widget nice job review from not loading. </p><p>
+	 Note: 
+	<em>cdn.nicejob.co</em> should also be added to the Excluded JavaScript Files from Load JavaScript deferred and Minify JavaScript</p>
+<pre>cdn.nicejob.co
+</pre><p>
+	<a href="https://nighteye.app/">Night Eye Pro</a></p><p>
+	 Solve links not being clickable:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/plugins/night-eye-pro/
+nightEyeProOptions
+</pre><p>
+	<a href="https://wordpress.org/plugins/ninja-forms/">Ninja Forms</a></p><p>
+	 Show the form on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/underscore.min.js
+/wp-includes/js/backbone.min.js
+/wp-includes/js/jquery/ui/core.min.js
+/ninja-forms/assets/js/min/front-end-deps.js
+/ninja-forms/assets/js/min/front-end.js
+nf-
+</pre><p>
+	<a href="https://wpmanageninja.com/downloads/ninja-tables-pro-add-on/">Ninja Tables</a></p><p>
+	 Show the table on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ninja-tables(.*)/assets/
+/ninja-tables(.*)/public/
+/wp-includes/js/dist/vendor/moment.min.js
+ninja_table_instance_
+ninja_filter_
+ninja_table_ready_init_table_id
+</pre><p>
+	<a href="https://wordpress.org/plugins/notificationx/">NotificationX</a></p><p>
+	 Show the pop-up notification</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-content/plugins/notificationx/assets/public/js/(.*).js
+notificationXArr
+</pre><p>
+	<a href="https://wordpress.org/plugins/ooohboi-steroids-for-elementor/">OoohBoi Steroids for Elementor</a></p><p>
+	 Display OohhBoi elements on page load</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/ooohboi-steroids-for-elementor/
+</pre><p>
+	<a href="https://oceanwp.org/extension/ocean-elementor-widgets/">Ocean Elementor Widgets</a></p><p>
+	 Avoid console errors (Elements added with this plugin should work)</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+/ocean-elementor-widgets/
+</pre><p>
+	<a href="https://optimole.com/"></a></p><p>
+	<a href="https://wordpress.org/plugins/pojo-accessibility/">One Click Accessibility</a></p><p>
+	 Allow One Click Accessibility to work on all pages:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/pojo-accessibility/assets/js/app.min.js
+</pre><p>
+	<a href="https://onesignal.com/">OneSignal</a></p><p>
+	 Fire tracker on pageload</p>
+<pre>onesignal
+</pre><p>
+	<a href="https://codecanyon.net/item/openai-chatbot-for-wordpress-helper/46699667">OpenAI Chatbot for WordPress – Helper</a></p><p>
+	 Allow for chatbot icon load without user interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/helper/js/helper.min.js
+mdpHelper
+</pre><p>
+	<a href="https://optimole.com/">Optimole</a></p><p>
+	 To fire excluded JavaScript files served through the Optimole CDN:</p>
+<pre>optimoleData
+</pre><p>
+	<a href="https://wordpress.org/plugins/osm/">OSM – OpenStreetMap</a></p><p>
+	 Display the map and avoid console errors.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/osm/js/OL/
+/osm/js/osm-v3-plugin-lib.js
+vectorM
+</pre><p>
+	<a href="https://oxygenbuilder.com/">Oxygen</a></p><p>
+	 When using the "Pro Menu" element:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/component-framework/vendor/aos/aos.js
+AOS.init
+oxygen_init_pro_menu
+oxy-pro-menu-show-dropdown
+</pre><p>
+	 Prevents incorrect positioning of the Shape Divider on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+oxy-shape-divider
+</pre><p>
+	Allow tabs toggles to be closed when the page loads:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+oxygenVSBInitToggleJs
+</pre><p>
+	<a href="https://oxyextras.com/">OxyExtras</a></p><p>
+	 When using Pro Media Player:</p>
+<pre>vime
+vime.esm.js
+</pre><p>
+	<a href="http://bonfirethemes.com/">PageLoader by Bonfire</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/pageloader-by-bonfire/pageloader.js
+bonfire-pageloader-overlay
+</pre><p>
+	 PenNews by PencilDesign</p><p>
+	 When the theme's lazyload functionality is used, lazyload images without interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/pennews/js/script.min.js
+/pennews/js/script.lib.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/pdf-embedder/">PDF Embedder</a></p><p>
+	 Load the PDF's without user interaction. 
+	<br />
+	<em>Please note that if Defer Javascript Execution is enabled, you also need to exclude these files from being deferred.</em></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/pdf-embedder/js/(.*).js
+</pre><p>
+	<a href="https://wordpress.org/plugins/perfect-woocommerce-brands/">Perfect Brands for WooCommerce</a></p><p>
+	 Show the slider on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/perfect-woocommerce-brands/assets/lib/slick/slick.min.js
+/perfect-woocommerce-brands/assets/js/functions-frontend.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/popup-builder/">Popup Builder</a></p><p>
+	 Show popup on exit:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/popup-builder/public/js/(.*).js
+/popupbuilder-exit-intent/public/javascript/ExitIntent.js
+var sgpbPublicUrl
+SGPB_POPUP_PARAMS
+</pre><p>
+	<a href="https://wordpress.org/plugins/popup-maker/">Popup Maker</a></p><p>
+	 Show popup on one click:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/jquery/ui/core.min.js
+/pum/pum-site-scripts.js
+pum
+</pre><p>
+	 If Asset Caching in Popup Maker's settings has been disabled, use these exclusions:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/jquery/ui/core.min.js
+/plugins/popup-maker/assets/js/site.min.js
+pum
+</pre><p>
+	<a href="https://www.poptin.com/">poptin.com</a></p><p>
+	 To show popups and forms. 
+	<br />
+	 Exclude popt.in JS from Minify JavaScript files</p>
+<pre>cdn.popt.in/pixel.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/powerpack-lite-for-elementor/"><br />
+	</a></p><p>
+	<a href="https://wordpress.org/plugins/powerpack-lite-for-elementor/">PowerPack Addons for Elementor</a></p><p>
+	 Show animations:</p>
+<pre>/powerpack-lite-for-elementor/assets/js/min/frontend.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/preloader-for-divi/">Preloader for Divi</a></p><p>
+	 Close the preloader:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/preloader.js
+preLoaderObj
+</pre><p>
+	<a href="https://wordpress.org/plugins/preloader-plus/">Preloader Plus – WordPress Loading Screen Plugin</a></p><p>
+	 Prevents the preloader from being stuck until there's user interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/preloader-plus/(.*)
+</pre><p>
+	<a href="https://premiumaddons.com/">Premium Addons for Elementor</a></p><p>
+	 Make equal height work:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/premium-addons-for-elementor/assets/frontend/min-js/premium-addons.min.js
+/premium-addons-for-elementor/assets/frontend/min-js/isotope.min.js
+</pre><p>
+	 Make filters work:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/premium-addons-for-elementor/assets/frontend/min-js/premium-addons.min.js
+/premium-addons-for-elementor/assets/frontend/min-js/isotope.min.js
+/premium-addons-elementor/pa-frontend-(.*).min.js
+</pre><p>
+	 Make lottie animations work:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+window.scopes_array
+lottie.min.js
+</pre><p>
+	Make the testimonials' carousel work:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js 
+/premium-addons-for-elementor/assets/frontend/min-js/slick.min.js 
+/premium-addons-pro/assets/frontend/min-js/tooltipster.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/presto-player/">Presto Player</a></p><p>
+	 Load the video player</p>
+<pre>/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+/presto-player/dist/components/web-components/web-components.esm.js
+/presto-player/src/player/player-static.js
+var player
+/wp-includes/js/dist/api-fetch.min.js
+/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/dist/i18n.min.js
+</pre><p>
+	<a href="https://www.pricebasedcountry.com/">Price Based on Country for WooCommerce</a></p><p>
+	 To load the prices and currency switcher without interaction</p>
+<pre>/woocommerce-product-price-based-on-countries/assets/js/ajax-geolocation.min.js
+/woocommerce-price-based-country-pro-addon/assets/js/currency-switcher.min.js
+add-to-cart.min.js
+cart-fragments.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/bdthemes-prime-slider-lite/">Prime Slider by BDThemes<br />
+	</a></p><p>
+	Display slider without interaction</p>
+<pre>/plugins/bdthemes-prime-slider-lite/assets/js/bdt-uikit.min.js
+</pre><p>
+	<a href="https://codecanyon.net/item/twist-product-gallery-slidercarousel-plugin-for-woocommerce/14849108">Product Gallery Slider for WooCommerce (Formerly Twist)</a></p><p>
+	 Show the slider on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/twist/assets/js/slick.min.js
+wpgs-public-js-after
+</pre><p>
+	<a href="https://proelements.org/">PRO Elements</a></p><p>
+	Fixes functions execution when the jQuery library is already excluded:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/pro-elements/
+</pre><p>
+	<a href="https://demos.xforwoocommerce.com/product-filter/">Product Filter for WooCommerce</a></p><p>
+	 Filter button responsive on first click:</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/wp-includes/js/hoverIntent.min.js
+/prdctfltr/
+</pre><p>
+	<a href="https://woocommerce.com/fr-fr/products/product-filters/">Product Filters for WooCommerce</a></p><p>
+	Make the filters work:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woocommerce-product-filters/
+/woocommerce/assets/js/accounting/accounting.min.js
+/wp-includes/js/jquery/ui/
+wcpf-load-project
+WCPFData
+</pre><p>
+	<a href="https://wordpress.org/plugins/photonic/">Photonic</a></p><p>
+	 Display the gallery without user interaction.</p>
+<pre>/photonic/include/js/front-end/module/photonic-baguettebox.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/pixel-caffeine/">Pixel Caffein</a></p><p>
+	 Fire the tracker on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/pixel-caffeine/build/frontend.js
+aepc_pixel
+</pre><p>
+	<a href="https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/">Pixel Manager for WooCommerce (Premium)</a></p><p>
+	 Fire the tracker on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/woocommerce-pixel-manager-pro/js/public/
+wpm
+</pre><p>
+	<a href="https://wordpress.org/plugins/woo-product-filter/">Product Filter by WBW (for WooCommerce)</a></p><p>
+	 Resolves issue where the product filter won't load on the page, there's a 'loading' gif stuck in its place, and there's a console error.</p>
+<pre>/jquery-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?$
+/jquery-migrate(.*)(.min|.slim|.slim.min)?.js(\?(.*))?$
+/wp-content/plugins/woo-product-filter/modules/woofilters/js/frontend.woofilters.js
+/wp-includes/js/jquery/ui/mouse.min.js
+/wp-includes/js/jquery/ui/core.min.js
+/wp-includes/js/jquery/ui/slider.min.js
+</pre><p>
+	<a href="https://rankmath.com/">RankMath</a></p><p>
+	 Exclude self-hosted analytics to avoid blocking following scripts:</p>
+<pre>local_ga_js
+</pre><p>
+	<a href="https://themeforest.net/item/rehub-directory-multi-vendor-shop-coupon-affiliate-theme/7646339">REHub Theme</a></p><p>
+	 Fix the sticky menu:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/rehub-theme/js/custom_floatpanel.js
+</pre><p>
+	<a href="https://themeforest.net/item/rey-multipurpose-woocommerce-theme/24689383">Rey Theme</a></p><p>
+	 Fix the sticky menu on mobile and animations:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/rey/scripts-(.*).js
+/rey-core/assets/js/
+</pre><p>
+	<a href="https://wordpress.org/plugins/retainful-next-order-coupon-for-woocommerce/">Retainful – WooCommerce Abandoned Cart Recovery</a></p><p>
+	 Show the pop-up</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/retainful-next-order-coupon-for-woocommerce/src/premium/assets/js/atc-popup.min.js
+/retainful-next-order-coupon-for-woocommerce/src/premium/assets/js/exit-intent-popup.js
+retainful.com
+rnoc-add-to-cart-js-before
+rnoc_redirect_coupon_popup
+</pre><p>
+	<a href="https://sliderrevolution.info/">Revolution Slider</a></p><p>
+	 Show the slider on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/revslider/public/assets/js/
+/revslider/sr6/assets/js/
+/revslider/public/js/libs/tptools.js
+/revslider/public/js/sr7.js
+SR7
+/revslider-(.*)-addon/
+setREVStartSize
+rev_slider_
+revslider_
+window.RS_MODULES
+</pre><p>
+	<a href="https://royal-elementor-addons.com/">Royal Elementor Addons</a></p><p>
+	 Fixes mobile menu not opening:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/royal-elementor-addons/assets/js/frontend.min.js
+/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js
+</pre><p>
+	<a href="https://tielabs.com/product/sahifa-theme/">Sahifa Theme</a></p><p>
+	 Allow mobile menu slideout to work for Safari mobile:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/themes/sahifa/js/ilightbox.packed.js
+/translate_a/element.js
+</pre><p>
+	<a href="https://themenectar.com/salient/">Salient Theme</a></p><p>
+	 Show the menu and animations on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/salient/
+</pre><p>
+	 When using the Salient Nectar Slider, also exclude the following to load the images without interaction:</p>
+<pre>/salient-nectar-slider/js/nectar-slider.js
+</pre><p>
+	 Close mobile menu when using anchor links:</p>
+<pre>winW &gt; bodyW
+</pre><p>
+	<a href="https://themesindep.com/simplemag/">SimpleMag Theme</a></p><p>
+	 Show the slider on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/simplemag/js/ti-main.js
+</pre><p>
+	<a href="https://www.shoptimizertheme.com">Shoptimizer Theme</a></p><p>
+	 Shows background images and fix the double tap on mobile menu:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/shoptimizer/assets/js/lazyload-bg.js
+/shoptimizer/assets/js/main.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/sassy-social-share/">Sassy Social Share</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/sassy-social-share/public/js/sassy-social-share-public.js
+heateorSssLoadEvent
+</pre><p>
+	<a href="https://scrollsequence.com/">Scrollsequence</a></p><p>
+	Show images and animation on pageload</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/scrollsequence-pro/public/js/gsap__premium_only.js
+/scrollsequence-pro/public/js/gsap-scrolltrigger__premium_only.js
+/scrollsequence-pro/public/js/ssq-lib__premium_only.js
+scrollsequence-input-script
+</pre><p>
+	<a href="https://themeforest.net/item/seolounge-seo-agency-wordpress-theme/22388988">SEO Lounge - Digital Marketing Theme</a></p><p>
+	Avoid the loader being delayed so the page can be displayed before user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?$
+/js_composer/assets/js/dist/js_composer_front.min.js
+/seolounge/js/radiantthemes-custom.js
+/seolounge/js/radiantthemes-core.min.js
+</pre><p>
+	<a href="https://shiftnav.io/">ShiftNav Pro - Responsive Mobile Menu</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/shiftnav-pro/assets/js/shiftnav(.*).js
+</pre><p>
+	<a href="https://es.wordpress.org/plugins/shiftnav-responsive-mobile-menu/">ShiftNav – Responsive Mobile Menu</a></p><p>
+	 Displays without interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/shiftnav-responsive-mobile-menu/
+</pre><p>
+	<a href="https://wordpress.org/plugins/side-cart-woocommerce/">Side Cart Woocommerce (Ajax)</a></p><p>
+	 Makes cart icon work to slide in the cart menu.</p><p>
+	<a href="https://wordpress.org/plugins/simple-banner/">Simple Banner</a></p><p>
+	Show the banner on pageload.</p>
+<pre>/wp-includes/js/jquery/jquery.min.js
+/simple-banner/
+simpleBannerScriptParams
+</pre><p>
+	<a href="https://wordpress.org/plugins/google-site-kit/">Site Kit by Google</a></p><p>
+	 Fixes issues with Google Analytics.</p>
+<pre>google-analytics.com/analytics.js
+ga\( '
+ga\('
+/gtag/js
+gtag\(
+/gtm.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/so-widgets-bundle/">SiteOrigin Widgets Bundle</a></p><p>
+	 Load the images on the page load.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/so-widgets-bundle/js/slider/jquery.slider.min.js
+/so-widgets-bundle/js/jquery.cycle.min.js
+/so-widgets-bundle/js/jquery.cycle.swipe.min.js
+/so-widgets-bundle/js/sow.jquery.fittext.min.js
+/so-widgets-bundle/js/lib/jquery.fitvids.min.js
+/siteorigin-panels/js/styling.min.js
+siteorigin-panels-before-js
+page_id
+</pre><p>
+	<a href="https://wordpress.org/plugins/shortpixel-adaptive-images/">Short Pixel Adaptive Image</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/shortpixel-adaptive-images/assets/js/ai(.*).min.js
+spai_settings
+</pre><p>
+	<a href="https://showcaseidx.com/">Showcase IDX</a></p><p>
+	 Prevents requiring double click on iOS to use filters.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+SIDX
+search.showcaseidx.com/js/app-(.*).js
+</pre><p>
+	 Exclusion when the option 
+	<strong><em>New AI engine</em></strong> is enabled (You don't need the above, only this one).</p>
+<pre>cdn.shortpixel.ai
+</pre><p>
+	<a href="https://wordpress.org/plugins/slide-anything/">Slide Anything Plugin</a></p><p>
+	 Show slider without user interaction:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/slide-anything/owl-carousel/owl.carousel.min.js
+owl_goto.trigger
+</pre><p>
+	<a href="https://slickmenu.net/">Slick Menu</a></p><p>
+	 Show menu on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/slick-menu/
+</pre><p>
+	<a href="https://wordpress.org/plugins/smart-slider-3/">Smart Slider 3</a></p><p>
+	 Show the slider on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/smart-slider-3/(.*).js
+_N2
+</pre><p>
+	<a href="https://wordpress.org/plugins/smart-slider-3/">Smart Slider 3 Pro</a></p><p>
+	 Show the slider on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/SmartSlider3/(.*).js
+_N2
+</pre><p>
+	<a href="https://www.smart-variations.com/">Smart Variations Images &amp; Swatches for WooCommerce (Premium)</a></p><p>
+	 Show the product gallery on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woocommerce/assets/js/zoom/jquery.zoom.min.js
+/woocommerce/assets/js/flexslider/jquery.flexslider.min.js
+/woocommerce/assets/js/photoswipe/photoswipe.min.js
+/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js
+/woocommerce/assets/js/frontend/single-product.min.js
+/woocommerce/assets/js/frontend/add-to-cart-variation.min.js
+/smart-variations-images-premium/
+swiper-bundle.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/smartmag-responsive-retina-wordpress-magazine/6652608">SmartMag</a><br />
+	 Fixes the images not being displayed because of the theme's Lazyload.</p>
+<pre>/smart-mag/js/lazyload.js
+</pre><p>
+	<a href="http://soledad.pencidesign.com/landing-page/">Soledad Theme</a><br />
+	 Fixes the images not being displayed because of the theme's Lazyload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/soledad/js/main.js
+/soledad/js/more-post.js
+/soledad/js/libs-script.min.js
+</pre><p>
+	<a href="https://themegrill.com/themes/spacious/">Spacious Theme</a><br />
+	 Fixes mobile menu functionality.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/spacious/js/navigation.js
+</pre><p>
+	<a href="https://fr.wordpress.org/plugins/soliloquy-lite/">Soliloquy</a></p><p>
+	 Show the slider on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+soliloquy-min.js
+soliloquy_slider
+</pre><p>
+	<a href="https://wpspectra.com/">Spectra (formerly Ultimate Addons for Gutenberg)</a></p><p>
+	 Show the slider on pageload:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/ultimate-addons-for-gutenberg/assets/js/spectra-animations.min.js
+/ultimate-addons-for-gutenberg/assets/js/post.min.js
+/ultimate-addons-for-gutenberg/assets/js/aos.min.js
+/slick.min.js
+/imagesloaded.min.js
+UAGBPostCarousel
+</pre><p>
+	<a href="https://stripe.com/">Stripe</a></p><p>
+	 Fixes ReferenceError: Stripe is not defined</p>
+<pre>js.stripe.com
+</pre><p>
+	<a href="https://superfly5.looks-awesome.com/">Superfly Menu</a></p>
+<pre>/superfly-menu/js/public.min.js 
+window.SFM 
+SFM_template
+</pre><p>
+	<a href="https://wordpress.org/plugins/svg-support/">SVG Support</a></p><p>
+	 Fixes browser console error</p>
+<pre>/svg-support/js/min/svgs-inline-min.js
+ForceInlineSVGActive
+</pre><p>
+	<a href="https://athemes.com/theme/sydney/">Sydney</a></p><p>
+	Load elements on pages without user interaction:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/wp-content/themes/sydney-pro-ii/js/scripts.js
+/wp-content/themes/sydney-pro-ii/js/functions.min.js
+/wp-content/themes/sydney-pro-ii/js/elementor.js
+/wp-content/themes/sydney-pro-ii/js/hero-slider.js
+/wp-content/plugins/sydney-toolbox/js/main.js
+</pre><p>
+	<a href="https://symplr.de/">Symplr Ads</a></p><p>
+	Loads Ads right away</p>
+<pre>/symplr-ads/
+cdns.symplr.de
+</pre><p>
+	<a href="https://www.reviews.io/">Reviews.io</a></p><p>
+	 Prevents the widget from breaking:</p>
+<pre>/badge-ribbon/dist.js
+/carousel-inline-iframeless/dist.js
+/rich-snippet-reviews-widgets/dist.js
+</pre><p>
+	<a href="https://www.trustindex.io/">Trustindex.io</a></p><p>
+	Trustindex element is shown immediately:</p>
+<pre>cdn.trustindex.io/loader.js
+cdn.trustindex.io/loader-cert.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/tabby-responsive-tabs/">Tabby Responsive Tabs</a></p><p>
+	 Load tabs without delay:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/tabby-responsive-tabs/js/tabby.js
+RESPONSIVEUI
+</pre><p>
+	<a href="https://wordpress.org/plugins/tidio-live-chat/">Tidio Chat</a></p><p>
+	 Display the chat icon.</p>
+<pre>document.tidioChatCode
+</pre><p>
+	<a href="https://wordpress.org/plugins/the-plus-addons-for-elementor-page-builder/">The Plus Addons for Elementor</a></p><p>
+	 Start animations on page load</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/theplus-addons/(.*)
+</pre><p>
+	<a href="https://theplusaddons.com/">The Plus Addons for Elementor Pro</a></p><p>
+	Solve issues with sliders and tabs</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/wp-content/plugins/theplus_elementor_addon/
+/elementor/
+/elementor-pro/
+/wp-includes/js/imagesloaded.min.js
+ElementorProFrontendConfig
+elementorFrontendConfig
+</pre><p>
+	<a href="https://www.pharmacymentor.com/">Pharmacy Mentor Theme</a></p><p>
+	 Load slider and animations on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/pharmacymentor/
+</pre><p>
+	<a href="https://www.portotheme.com/">Porto Theme</a></p><p>
+	 Load animations:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/jquery/ui/
+/porto/js/theme.js
+/porto/js/theme.min.js
+</pre><p>
+		 Load Owl Carousel without interaction:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/wp-includes/js/jquery/ui/
+/porto/js/theme(|.min).js
+/porto/js/libs/owl.carousel(|.min).js
+/porto/js/theme-async(|.min).js
+/prettyPhoto/jquery.prettyPhoto(|.min).js
+</pre><p>
+	<a href="https://www.premiumpress.com/">PremiumPress Themes</a></p><p>
+	Removes the preloader after the page is loaded:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/js/js.custom.js
+ajax_img_url
+loadDeferredStyles
+</pre><p>
+	<a href="https://theme.co/pro">Pro Theme</a></p><p>
+	Fix menu and accordions:</p>
+<pre>/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(?(.))?( |'|"|&gt;)
+/pro/cornerstone/assets/js/site/cs-classic.(.).js
+</pre><p>
+	<a href="https://pro.photo/">ProPhoto Theme</a></p><p>
+	 Fire animations:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/prophoto7/js/bundle.front.js
+/wp-includes/js/underscore.min.js
+PROPHOTO
+</pre><p>
+	<a href="https://betterstudio.com/">Publisher Theme</a></p><p>
+	 Make the mobile menu expend from the first click and the cookie notice to show on pageload.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/publisher/js/
+</pre><p>
+	<a href="https://the7.io/">The7 Theme</a></p><p>
+	 Remove the loader and fire animations:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+loader-removed
+/Ultimate_VC_Addons/assets/min-js/
+/dt-the7/
+/js_composer/
+</pre><p>
+	<a href="https://themerex.net/wp/download_plugins/themerex-addons/">ThemeREX Addons</a> - Page Preloader</p><p>
+	 Hide the page pleoader without user interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/trx_addons/js/__scripts-full.js
+/trx_addons/components/cpt/layouts/shortcodes/menu/superfish.min.js
+</pre><p>
+	<a href="https://thrivethemes.com/architect/">Thrive Architect</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+</pre><p>
+	<a href="https://thrivethemes.com/leads/">Thrive Leads</a> - Inline Form</p><p>
+	 Show the form on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/thrive-leads/
+window.TL_Const
+var ml=
+</pre><p>
+	 Fix comment box not showing:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/thrive-leads/
+window.TL_Const
+var ml=
+/thrive-comments/assets/js/
+ThriveComments
+/wp-includes/js/underscore.min.js
+/wp-includes/js/backbone.min.js
+</pre><p>
+	<a href="https://thrivethemes.com/quizbuilder/">Thrive Quiz Builder</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+</pre><p>
+	<a href="https://help.thrivethemes.com/en/articles/4741848-setting-up-and-using-wp-rocket-with-thrive-theme-builder">Thrive Theme Builder</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/thrive-visual-editor/editor/js/dist/modules/(.*).js
+TVE_Event_Manager_Registered_Callbacks
+ThriveGlobal
+TCB_Front
+TL_Front
+TVE_Ult
+thrive-
+thrive_
+tve_
+tve-
+</pre><p>
+	<a href="https://thrivethemes.com/ultimatum/">Thrive Ultimatum</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/thrive-ultimatum/
+var TVE_Ult_
+</pre><p>
+	<a href="https://wpdarko.com/items/top-bar-pro/">Top Bar Pro</a></p><p>
+	 To prevent top bar from getting overlapped with other content.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-content/plugins/topbar-pro/js/tpbr_front.min.js
+/wp-content/plugins/topbar-pro/js/jquery.cookie.js
+</pre><p>
+	<a href="https://toolset.com/home/blocks/">Toolset Blocks</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+toolsetCommonEs.fontToHead
+toolsetCommonEs.styleToHead
+/toolset-blocks/vendor/toolset/blocks/public/js/frontend.js
+/toolset-blocks/vendor/toolset/common-es/public/toolset-common-es-frontend.js
+/toolset-blocks/public/js/views-frontend.js
+/wp-includes/js/underscore.min.js
+</pre><p>
+	<a href="https://www.typeform.com/">Typeform</a></p><p>
+	 Load Typeforms without interaction:</p>
+<pre>/next/embed.js
+</pre><p>
+	<a href="https://fonts.adobe.com/">Typekit</a></p><p>
+	 Load Typekit fonts on page load:</p>
+<pre>typekit
+</pre><p>
+	<a href="https://www.tplugins.com/product/tp-woocommerce-product-gallery-pro/">TP WooCommerce Product Gallery PRO</a></p><p>
+	 Show the gallery on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/tp-woocommerce-product-gallery/public/js/tpslick.js
+/tp-woocommerce-product-gallery/public/js/lity.min.js
+/tp-woocommerce-product-gallery/public/js/jquery.zoom.min.js
+/tp-woocommerce-product-gallery/public/js/jquery.mousewheel.min.js
+/tp-woocommerce-product-gallery/public/js/lightgallery-all.min.js
+/tp-woocommerce-product-gallery/public/js/woocommerce-product-gallery-public.js
+tpslick
+</pre><p>
+	 If used with Avada, the following needs to be excluded as well:</p>
+<pre>/uploads/fusion-scripts/(.*).js
+</pre><p>
+	<a href="https://wordpress.org/plugins/animated-typing-effect/">Typing Effect</a></p><p>
+	 Show the animated typing effect on page load:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/plugins/animated-typing-effect/assets/js/typed.js
+/plugins/animated-typing-effect/assets/js/typed.fe.js
+</pre><p>
+	<a href="https://wpmegamenu.com/">UberMenu 3 - The Ultimate WordPress Mega Menu</a></p><p>
+	 To make mobile menu responsive immediately without any user interaction</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ubermenu/assets/js/ubermenu.min.js
+</pre><p>
+	<a href="https://ultimateelementor.com/">Ultimate Addons for Elementor</a></p><p>
+	 To make header slider be displayed correctly on page load</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ultimate-elementor/assets/lib/slick/slick.min.js
+/ultimate-elementor/assets/min-js/uael-frontend.min.js
+/ultimate-elementor/assets/lib/isotope/isotope.min.js
+/ultimate-elementor/assets/lib/jquery-element-resize/jquery_resize.min.js
+/ultimate-elementor/assets/lib/fancybox/jquery_fancybox.min.js
+/ultimate-elementor/assets/lib/justifiedgallery/justifiedgallery.min.js
+/elementor-pro/assets/js/frontend.min.js
+/wp-includes/js/imagesloaded.min.js
+/js_composer/assets/js/dist/js_composer_front.min.js
+/elementor/assets/lib/swiper/swiper.min.js
+/nasa-core/assets/js/min/jquery.slick.min.js
+/elementor/
+/elementor-pro/
+ElementorProFrontendConfig
+elementorFrontendConfig
+</pre><p>
+	 To make the mobile menu icon work as expected</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/ultimate-elementor/assets/min-js/uael-nav-menu.min.js
+</pre><p>
+	<a href="https://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199">Ultimate Addons for WPBakery Page Builder</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/Ultimate_VC_Addons/assets/
+</pre><p>
+	<a href="https://wordpress.org/plugins/ultimate-responsive-image-slider/">Ultimate Responsive Image Slider</a></p><p>
+	 To load the slider without any user interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+sliderPro
+</pre><p>
+	<a href="https://wordpress.org/plugins/woo-variation-swatches/">Variation Swatches for WooCommerce</a></p><p>
+	 Make some elements to load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/jquery/ui/
+/woo-variation-swatches/
+/woo-variation-swatches-pro/
+underscore.min.js
+</pre><p>
+	<a href="https://iconicwp.com/products/woocommerce-attribute-swatches/">WooCommerce Attribute Swatches</a></p><p>
+	 Makes using attribute swatches not require two clicks:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/iconic-woo-attribute-swatches-premium/assets/frontend/js/main.min.js
+/iconic-woo-attribute-swatches-premium/assets/vendor/flickity/flickity.pkgd.min.js
+iconic_was_vars
+</pre><p>
+	<a href="https://woocommerce.com/products/woocommerce-bookings">WooCommerce Bookings</a></p><p>
+	Make sure the calendar is displayed correctly:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woocommerce-bookings/dist/frontend.js
+/wp-includes/js/dist/date.min.js
+/wp-includes/js/dist/vendor/moment.min.js
+/wp-includes/js/jquery/ui/datepicker.min.js
+/wp-includes/js/underscore.min.js
+/wp-includes/js/dist/hooks.min.js
+/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+</pre><p>
+	<a href="https://codecanyon.net/item/woocommerce-extra-product-options/7908619">WooCommerce TM Extra Product Options</a></p>
+<pre>/woocommerce-tm-extra-product-options/assets/js/epo.min.js
+/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/jquery/ui/core.min.js
+/wp-includes/js/jquery/ui/mouse.min.js
+/wp-includes/js/jquery/ui/slider.min.js
+/wp-includes/js/underscore.min.js
+/wp-includes/js/wp-util.min.js
+/wp-includes/js/dist/hooks.js
+/wp-includes/js/dist/i18n.js
+</pre><p>
+	 WooCommerce Product Gallery</p><p>
+	 Show the product gallery on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woocommerce/(.*)/assets/js/zoom/jquery.zoom.min.js
+/woocommerce/(.*)/assets/js/photoswipe/
+/woocommerce/(.*)/assets/js/flexslider/jquery.flexslider.min.js
+/woocommerce/(.*)/assets/js/frontend/single-product.min.js
+</pre><p>
+	 Above's exclusions are automatically applied in a WooCommerce product page with a gallery.</p><p>
+	 The following exclusion shuold be used when the gallery opacity is set to 0.</p>
+<pre>wc_single_product_params
+</pre><p>
+	<a href="http://www.woocommerce.com/products/woocommerce-product-reviews-pro/">WooCommerce Product Reviews Pro</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+wc_product_reviews_pro
+/woocommerce-product-reviews-pro/assets/js/frontend/wc-product-reviews-pro-frontend.min.js
+/woocommerce/assets/js/jquery-tiptip/jquery.tipTip.min.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/woocommerce-gateway-stripe/">WooCommerce Stripe Gateway</a></p><p>
+	 Shows Strip Buy Now button and fixes console errors:</p>
+<pre>js.stripe.com
+</pre><p>
+	<a href="https://wordpress.org/plugins/woocommerce-products-filter/">WOOF - Products Filter for WooCommerce</a></p><p>
+	 Avoid console error (no impact on the functionality of WOOF):</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woocommerce-products-filter/(.*)
+woof
+</pre><p>
+	<a href="https://wordpress.org/plugins/woolentor-addons/">WooLentor - WooCommerce Elementor Addons + Builder</a></p><p>
+	 Display the carousel without interaction.</p>
+<pre>/woolementor/assets/third-party/slick/slick.min.js
+/woolentor-addons
+woolentor_addons
+</pre><p>
+	 Display the product gallery without interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+.woolentor-learg-img
+/woolentor-addons/assets/js/slick.min.js
+/woolentor-addons-pro/assets/lib/js/tippy.min.js
+</pre><p>
+	 The 
+	<a href="https://docs.wp-rocket.me/article/1560-delay-javascript-execution-compatibility-exclusions#elementor-pro">Elementor Pro</a> exclusions should be added as well.</p><p>
+	<a href="https://iconicwp.com/products/woothumbs/">WooThumbs for WooCommerce</a></p><p>
+	 To preserve the display of product variation images</p>
+<pre>/wp-includes/js/dist/hooks.min.js
+/wp-includes/js/underscore.min.js
+/wp-includes/js/wp-embed.min.js
+/wp-includes/js/wp-util.min.js
+/woothumbs-premium/(.*)
+</pre><p>
+	<a href="https://wordpress.org/plugins/accessibe/">Web Accessibility By accessiBe</a></p><p>
+	 To preserve the functions of the plugin:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/accessibe/
+acsbJS
+</pre><p>
+	<a href="https://wp-armour.com/">WP Armour</a></p><p>
+	 To prevent marking all product reviews as spam.</p><p>
+	<a href="https://fr.wordpress.org/plugins/wp-mapit/">WP MapIt</a></p><p>
+	  Display the map on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-mapit/wp_mapit/js/leaflet.js
+/wp-mapit/wp_mapit/js/wp_mapit_multipin.js
+</pre><p>
+	<a href="https://wordpress.org/plugins/wp-responsive-menu/">WP Responsive Menu</a></p><p>
+	 Render the menu on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-responsive-menu/(.*)
+</pre><p>
+	<a href="https://wordpress.org/plugins/wp-search-with-algolia/">WP Search with Algolia</a></p><p>
+	 Fixes the search function and its related console errors.</p>
+<pre>/wp-search-with-algolia/js/algoliasearch/dist/algoliasearch-lite.umd.js
+/wp-search-with-algolia/js/autocomplete-noconflict.js
+/wp-search-with-algolia/js/autocomplete.js/dist/autocomplete.min.js
+var algolia
+</pre><p>
+	<a href="https://wordpress.org/plugins/wp-smart-preloader/">WP Smart Preloader</a></p><p>
+	 Allows the preloader to work without user interaction, and resolves GTMetrix/PageSpeed Insights test.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/wp-smart-preloader/assets/js/wsp-main-script(.min)?.js
+</pre><p>
+	<a href="https://wpstorelocator.co/">WP Store Locator</a></p><p>
+	 Show the map on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js 
+/jquery-migrate(.min)?.js
+/wp-store-locator/
+/wp-includes/js/underscore.min.js
+maps.google.com
+</pre><p>
+	<a href="https://wordpress.org/plugins/wp-ultimate-post-grid/">WP Ultimate Post Grid</a></p><p>
+    Show the dropdown selector/filter option</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/wp-ultimate-post-grid/dist/public.js
+wpupg_grid_args
+</pre><p>
+	<a href="https://wordpress.org/plugins/quadmenu/">WordPress Mega Menu – QuadMenu</a></p><p>
+	 Show the menu on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/quadmenu
+#private-menu
+#public-menu
+</pre><p>
+	<a href="https://stockholmlanding.qodeinteractive.com/">Stockholm Theme</a></p><p>
+	 To show the logo and prevent JavaScript errors:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/stockholm/js
+</pre><p>
+	<a href="https://wordpress.org/themes/storefront/">Storefront Theme</a></p><p>
+	Reveals menu from the first click:</p>
+<pre>/storefront/assets/js/navigation.min.js
+</pre><p>
+	Some elements on the page (Link sliders) are showed on page load:</p>
+<pre>/storefront/assets/js/homepage.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/streamtube-responsive-video-wordpress-theme/33821786">StreamTube - Theme</a></p><p>
+	 Fixes the display video error on the mobile version.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/streamtube/
+/streamtube-core/
+</pre><p>
+	<a href="https://themeforest.net/item/thegem-creative-multipurpose-highperformance-wordpress-theme/16061685">TheGem Theme</a></p><p>
+	 To show the logo, slider, animations and prevent JavaScript errors:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/thegem/js/
+gemSettings
+thegemSlideshow
+tgpLazyItemsOptions
+</pre><p>
+	<a href="https://total.wpexplorer.com/">Total Theme</a></p><p>
+	 Allow the search to work:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/themes/Total/assets/js/total.min.js
+</pre><p>
+	<a href="https://themeforest.net/item/townhub-directory-listing-wordpress-theme/25019571">Townhub Theme</a></p><p>
+	 Prevent add-ons from breaking the site:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/townhub-add-ons/assets/js/(.*)
+/wp-includes/js/dist/vendor/react.js
+/wp-includes/js/dist/vendor/react-dom.js
+</pre><p>
+	<a href="https://wordpress.org/themes/travel-monster/">Travel Monster Theme</a></p><p>
+	 Load Owl Carousel Slider without user interaction:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/wp-content/plugins/wp-travel-engine/assets/lib/owl-carousel(.*)/owl.carousel(|.min).js
+var isRtl
+</pre><p>
+	<a href="https://themeforest.net/item/travel-tour-travel-tour-management-system-wordpress-theme/19423474">TravelTour Theme</a> <br />
+	<small>The same exclusions are applicable to all GoodLayers themes.</small></p><p>
+	 Fix the slider:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/goodlayers-core/plugins/script.js 
+/goodlayers-core/include/js/page-builder.js
+</pre><p>
+	<a href="https://themeforest.net/user/andondesign">uDesign theme</a></p><p>
+	 Display page content on load without user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/themes/u-design/assets/js/theme.min.js
+/themes/u-design/framework/assets/js/framework.min.js
+</pre><p>
+	 Keep the mobile menu working properly.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/themes/u-design/assets/js/theme.min.js
+/themes/u-design/framework/assets/js/framework.min.js
+/wp-content/themes/u-design/framework/assets/js/framework-async.min.js
+</pre><p>
+	<a href="https://undsgn.com">Uncode theme</a></p><p>
+	 Hides Uncode's preloader without user interaction.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/uncode/library/js/init(.min)?.js
+/uncode/library/js/plugins(.min)?.js
+/uncode/library/js/app(.min)?.js
+/uncode/library/js/woocommerce-uncode(.min)?.js
+/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+initHeader
+initBox
+fixMenuHeight
+initRow
+</pre><p>
+	<a href="https://crumina.net/wp-themes/utouch/">Utouch theme</a></p><p>
+	Display menu on page load.</p>
+<pre>/wp-includes/js/jquery/jquery-migrate.min.js
+/wp-includes/js/jquery/jquery.min.js
+/utouch/js/main.js
+/utouch/js/swiper.jquery.min.js
+/utouch/js/fitvids.js
+/utouch/js/theme-plugins.js
+/utouch/js/crum-mega-menu.js
+</pre><p>
+	<a href="https://themeforest.net/item/vivo-health-and-medical-wordpress-theme/42142113">Vivo theme</a></p><p>
+	Fixes a blank page.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/vivo/framework/assets/js/bt_framework_misc.js
+</pre><p>
+	<a href="https://woodmart.xtemos.com/">WoodMart</a></p><p>
+	 Show WooCommerce thumbnails on pageload</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-includes/js/imagesloaded.min.js
+/woodmart/js/scripts/wc/
+/woodmart/js/scripts/global/
+/woodmart/js/libs/owl.carousel(.min)?.js
+</pre><p>
+	 Show product image gallery</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/woodmart/js/libs/owl.carousel(.min)?.js
+/woodmart/js/libs/slick.js
+</pre><p>
+Fix problem with the quantity icon of the mini cart</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;)
+/woocommerce/assets/js/frontend/cart-fragments.min.js
+/woocommerce/assets/js/js-cookie/js.cookie.min.js
+/woodmart/js/scripts/wc/updateCartFragmentsFix.js
+</pre><p>
+Allow mobile menu to work with just one click.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/themes/woodmart/js/scripts/menu/mobileNavigation.min.js
+/themes/woodmart/js/scripts/global/helpers.min.js
+</pre><p>
+	<a href="https://wpbakery.com/">WPBakery Page Builder</a></p><p>
+	 Fire sliders, animations, full-width elements resizing without user interaction:</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/js_composer/assets/js/dist/js_composer_front.min.js
+</pre><p>
+	 Fire carousels without user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/js_composer/assets/lib/vc_carousel/js/vc_carousel.min.js
+</pre><p>
+	<a href="https://wpforms.com/">WPForms</a></p><p>
+	 Prevents issues with Google reCaptcha.</p>
+<pre>wpformsRecaptchaLoad
+</pre><p>
+	<a href="https://wpforms.com/">WPForms - Loader GIF</a></p><p>
+	When Delay JavaScript Execution is enabled, the loader GIF stays until user interaction.</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/wpforms-conversational-forms/assets/js/conversational-forms.es5.min.js
+</pre><p>
+	<a href="https://wpforms.com/addons/offline-forms-addon/">WPForms - Offline Forms Addon</a></p><p>
+	 Prevents issues with redirect to Thank you page.</p>
+<pre>/wpforms-offline-forms/assets/js/wpforms-offline-forms.min.js
+wpforms-offline-forms-js-extra
+</pre><p>
+	<a href="https://wordpress.org/plugins/wpdatatables/">wpDataTables – Tables &amp; Table Charts</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wpdatatables/
+highcharts
+</pre><p>
+	<a href="https://wordpress.org/plugins/wp-google-maps/">WP Google Maps</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+maps.googleapis.com
+</pre><p>
+	<a href="https://www.wpgmaps.com/purchase-professional-version/">WP Google Maps Pro</a></p><p>
+	 Loads map on page load and fixes map not displayed after user interaction:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-google-maps(.*)
+maps.googleapis.com
+mgl_
+wpgmza
+</pre><p>
+	<a href="https://wordpress.org/plugins/wp-ical-availability/">WP iCal Availability</a></p><p>
+	 Fixes error when jQuery is already excluded:</p>
+<pre>/wp-ical-availability/js/custom-select.js
+</pre><p>
+	 Fully render the calendar on page load:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/wp-ical-availability/
+</pre><p>
+	<a href="https://xstore.8theme.com/">XStore Theme</a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/xstore/js/(.*).js
+/et-core-plugin/packages/st-woo-swatches/public/js/frontend.min.js
+</pre><p>
+	<a href="https://yandex.com/adv">Yandex Ads </a></p><p>
+	 Display Ads without interaction</p>
+<pre>yandex.ru
+window.yaContextCb
+</pre><p>
+	<a href="https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/">YITH WooCommerce AJAX Product Filter<br />
+	</a></p><p>
+	 Display product filters on mobile without interaction 
+	<br />
+	<a href="https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/"></a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/yith-woocommerce-ajax-navigation/assets/js/yith-wcan-shortcodes.min.js
+</pre><p>
+	<a href="https://yithemes.com/themes/plugins/yith-woocommerce-ajax-product-filter/">YITH WooCommerce AJAX Product Filter Premium<br />
+	</a></p><p>
+	 Display product filters on mobile without interaction 
+	<br />
+	<a href="https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/"></a></p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/yith-woocommerce-ajax-product-filter-premium/assets/js/yith-wcan-shortcodes.min.js
+</pre><p>
+	<a href="https://yithemes.com/themes/plugins/yith-woocommerce-points-and-rewards/">YITH WooCommerce Points and Rewards<br />
+	</a></p><p>
+	 Display rewards points notification without interaction</p>
+<pre>\/jquery(-migrate)?-?([0-9.]+)?(.min|.slim|.slim.min)?.js(\?(.*))?( |'|"|&gt;|$)
+/yith-woocommerce-points-and-rewards-premium/assets/js/frontend.min.js
+/woo-variation-swatches-pro/assets/js/add-to-cart-variation.min.js
+</pre><p>
+	<a href="https://www.zoho.com/salesiq/">Zoho SalesIQ<br />
+	</a></p><p>
+	 Display chat without interaction</p>
+<pre>zoho.salesiq
+</pre><p>
+	<a href="https://yootheme.com/page-builder">YOOtheme</a></p><p>
+	 Show animations and image in header on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+uikit.min.js
+/yootheme/
+</pre><p>
+	<a href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799"> Werkstatt - Creative Portfolio WordPress Theme</a></p><p>
+	 Show animated elements on page load.</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+js/underscore.min.js
+/werkstatt/assets/js/vendor.min.js
+/werkstatt/assets/js/fullscreen.min.js
+/werkstatt/assets/js/app.min.js
+</pre><p>
+	<a href="https://codetipi.com/zeen/">Zeen Theme</a></p><p>
+	 Starts animations on pageload:</p>
+<pre>/jquery-?[0-9.](.*)(.min|.slim|.slim.min)?.js
+/jquery-migrate(.min)?.js
+/zeen/assets/js/
+/js.cookie.min.js
+</pre><p>
+	<a href="https://venatus.com/">Venatus Media</a></p><p>
+	 Show ads on page load:</p>
+<pre>/ad-manager.min.js
+__vm_add
+</pre><p>
+	<a href="https://wistia.com/">Wistia</a></p><p>
+	 Show video on page load:</p>
+<pre>fast.wistia.com
+/E-v1.js
+</pre>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var links = document.querySelectorAll('#docsRevision a');
+        var len = links.length;
+
+        for(var i=0; i<len; i++) {
+            links[i].target = "_blank";
+            links[i].rel = "noopener noreferrer";
+        }
+    });
+
+    function addEvent(element, eventName, callback) {
+        if (element.addEventListener) {
+            element.addEventListener(eventName, callback, false);
+        } else if (element.attachEvent) {
+            element.attachEvent("on" + eventName, callback);
+        }
+    }
+
+    addEvent(window, "keydown", function(e) {
+        if (e.which === 74) {
+            trigger("prev")
+        } else if (e.which === 75) {
+            trigger("next")
+        }
+    });
+
+    //kick escape key up to parent to allow for closing modal
+    addEvent(window, "keyup", function(e) {
+        if ( e.which === 27 ) {
+            if ( window.parent && window.parent.HS ) {
+                window.parent.HS.Controller.PubSub.publish('User:Keyboard:Escape', null);
+            }
+        }
+    })
+
+    function trigger(dir) {
+        if (window.parent && window.parent.App && window.parent.App.trigger) {
+            window.parent.App.trigger("articlePreview:" + dir);
+        }
+    }
+</script>
+  </html>
+
